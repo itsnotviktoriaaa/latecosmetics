@@ -1,0 +1,890 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "ManropeExtraLight";
+    src: url("../fonts/Manrope-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "ManropeRegular";
+    src: url("../fonts/Manrope-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "ManropeMedium";
+    src: url("../fonts/Manrope-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "ManropeSemiBold";
+    src: url("../fonts/Manrope-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "ManropeBold";
+    src: url("../fonts/Manrope-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "ForumRegular";
+    src: url("../fonts/Forum-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "CaveatRegular";
+    src: url("../fonts/Caveat-Regular.ttf") format("truetype");
+}
+
+body {
+    background-color: hotpink;
+    color: #1F1F1F;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.text-bold {
+    font-family: "ManropeBold", sans-serif;
+}
+
+h1, h2 {
+    font-weight: unset;
+}
+
+.header-sets {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.header-sets a {
+    text-decoration: none;
+    width: 33%;
+}
+
+.header-set {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 62px;
+    justify-content: center;
+    box-shadow: 0 5px 20px rgba(21, 21, 21, 0.2);
+}
+
+.header-set-coffee {
+    background-color: #A57558;
+}
+
+.header-set-coffee:hover {
+    background-color: #815e44;
+}
+
+.header-set-tea {
+    background-color: #296945;
+}
+
+.header-set-tea:hover {
+    background-color: #235b3d;
+}
+
+.header-set-man {
+    background-color: #16263B;
+}
+
+.header-set-man:hover {
+    background-color: #121f2f;
+}
+
+.header-set-img {
+    margin-right: 10px;
+    position: relative;
+    top: 3px;
+}
+
+.header-set-title {
+    font-family: "ManropeExtraLight", sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    max-width: 243px;
+}
+
+.header-menu-nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.header-menu-nav ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "ManropeRegular", sans-serif;
+    color: #FFFFFF;
+}
+
+.header-menu-nav ul li:first-child {
+    margin-right: 60px;
+    margin-left: 52px;
+    position: relative;
+    top: 4px;
+}
+
+.header-menu-nav ul li:last-child {
+    margin-right: 0;
+}
+
+.header-menu-nav ul li {
+    margin-right: 35px;
+}
+
+.main {
+    padding-top: 140px;
+    padding-bottom: 88px;
+}
+
+.main-info {
+    max-width: 600px;
+    margin-bottom: 150px;
+}
+
+.main-info-h1 {
+    max-width: 600px;
+    font-family: 'ForumRegular', sans-serif;
+    font-size: 45px;
+    line-height: 50px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.main-info-description {
+    max-width: 461px;
+    font-family: 'CaveatRegular', sans-serif;
+    font-size: 35px;
+    line-height: 44px;
+    color: #F6F5F1;
+    margin-bottom: 70px;
+}
+
+.main-btn {
+    width: 298px;
+    padding: 24px 20px;
+    height: 78px;
+    border-radius: 35px 3px 35px 35px;
+    font-family: 'ManropeBold', sans-serif;
+    font-size: 16px;
+    color: #F6F5F1;
+    border: 0;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.main-btn-green {
+    background: #296945;
+}
+
+.main-btn-green:hover {
+    background: #235b3d;
+}
+
+.main-contact-instagram {
+    text-align: right;
+}
+
+.main-contact-instagram a {
+    font-family: 'ManropeExtraLight', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.about-company {
+    background-color: #F9F8F5;
+    padding-top: 160px;
+    padding-bottom: 68px;
+}
+
+.top-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #296945;
+    border-radius: 20px;
+    font-family: 'ManropeBold', sans-serif;
+    font-size: 9px;
+    color: #296945;
+    text-transform: uppercase;
+    height: 25px;
+}
+
+.top-title-white {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.top-title-black {
+    border: 1px solid #1F1F1F;
+    color: #1F1F1F;
+}
+
+.about-company-top-title {
+    width: 105px;
+}
+
+.about-company-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-company-item {
+    display: flex;
+    flex-direction: column;
+    font-family: 'ManropeRegular', sans-serif;
+    font-size: 16px;
+    color: #1F1F1F;
+}
+
+.about-company-item-left {
+    max-width: 596px;
+    row-gap: 40px;
+}
+
+
+.about-company-item-right {
+    max-width: 367px;
+    row-gap: 50px;
+}
+
+.about-company-item-left .about-company-item-text:first-child {
+    margin-top: 83px;
+}
+
+.about-company-item-right .about-company-item-text {
+    text-align: center;
+}
+
+.about-company-item-image {
+    max-width: 367px;
+}
+
+.about-company-item-image img {
+    width: 100%;
+}
+
+.trust {
+    background-color: #F9F8F5;
+    padding-top: 68px;
+    padding-bottom: 80px;
+}
+
+.trust-top-title {
+    width: 105px;
+}
+
+.common-h2 {
+    font-family: 'ForumRegular', sans-serif;
+    font-size: 30px;
+    line-height: 155%;
+    color: #1F1F1F;
+    margin: 0 0 70px auto;
+}
+
+.trust-h2 {
+    max-width: 739px;
+}
+
+.trust-items {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.trust-item-a {
+    max-width: 215px;
+    filter: drop-shadow(0px 0px 6px rgba(0, 0, 0, 0.25));
+}
+
+.trust-item-a:hover {
+    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.35));
+}
+
+.trust-item-a img {
+    width: 100%;
+}
+
+.click-and-look {
+    margin-left: 75px;
+}
+
+.click-and-look-arrow {
+    position: relative;
+    top: 12px;
+}
+
+.click-and-look-text {
+    max-width: 356px;
+    font-family: 'CaveatRegular', sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    color: #C1C0BB;
+    margin-left: 23px;
+}
+
+.trust-certificate-items {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.trust-certificate-items-left {
+    max-width: 807px;
+}
+
+.trust-certificate-item-left-text {
+    font-family: 'ForumRegular', sans-serif;
+    line-height: 155%;
+    color: #1F1F1F;
+    font-size: 30px;
+    margin-bottom: 43px;
+}
+
+.certificate-items {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.certificate-item-text {
+    border-bottom: 2px solid #D9D9D9;
+}
+
+.certificate-item-text:hover {
+    border-bottom: 2px solid #9f9c9a;
+}
+
+.certificate-item-text a {
+    font-family: 'ManropeRegular', sans-serif;
+    font-size: 16px;
+    color: #C1C0BB;
+    text-decoration: none;
+}
+
+.certificate-item-text:hover a {
+    color: #9f9c9a;
+}
+
+.certificate-item-arrow {
+    position: relative;
+    top: 10px;
+}
+
+.trust-certificate-item-advantages {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.trust-certificate-item-advantage {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
+
+.trust-certificate-item-advantage-image {
+    width: 45px;
+}
+
+.trust-certificate-item-advantage-image img {
+    width: 100%;
+}
+
+.trust-certificate-item-advantage-text {
+    width: 268px;
+    font-family: 'ManropeRegular', sans-serif;
+    font-size: 16px;
+    line-height: 155%;
+    color: #1F1F1F;
+}
+
+.trust-button {
+    margin-top: 50px;
+}
+
+.reviews {
+    background-color: #F9F8F5;
+    padding-top: 85px;
+    padding-bottom: 160px;
+}
+
+.reviews-top-title {
+    width: 165px;
+    margin-bottom: 30px;
+}
+
+.text-bold-number {
+    font-family: "ManropeSemiBold", sans-serif;
+}
+
+.reviews-common-title-wrapper {
+    max-width: 628px;
+    margin: 0 0 65px auto;
+}
+
+.reviews-h2 {
+    margin-bottom: 13px;
+}
+
+.middle-ball {
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+}
+
+.reviews .fall-in-love {
+    position: relative;
+    top: 7px;
+}
+
+.multiple-item-img {
+    width: 340px;
+}
+
+.multiple-item-img img {
+    width: 100%;
+}
+
+
+.my-dots {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    column-gap: 10px;
+    margin-top: 50px;
+}
+
+.my-dots li {
+}
+
+.my-dots li button {
+    width: 19px;
+    height: 19px;
+    background: #F1E4D5;
+    border-radius: 50%;
+    border: 0;
+    color: transparent;
+    cursor: pointer;
+}
+
+.my-dots .slick-active button, .my-dots li:hover button {
+    background-color: #D4C9BD;
+    outline: none;
+}
+
+.slick-dotted.slick-slider {
+    margin-bottom: 50px;
+}
+
+.center-button {
+    display: flex;
+    justify-content: center;
+}
+
+.top-button {
+    margin-top: 20px;
+}
+
+.bottom-button {
+    margin-bottom: 30px;
+}
+
+.switch-to-online-shop-btn {
+    width: 326px;
+    height: 50px;
+    background: #296945;
+    border-radius: 35px 3px 35px 35px;
+    border: 0;
+    font-family: 'ManropeBold', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    color: #F6F5F1;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.switch-to-online-shop-btn:hover {
+    background: #235b3d;
+}
+
+.switch-to-online-shop-btn-white {
+    color: #296945;
+    background: #ffffff;
+}
+
+.switch-to-online-shop-btn-white:hover {
+    background: #e8e8e8;
+}
+
+.social-sites {
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-site {
+    width: 35px;
+}
+
+.social-site img {
+    width: 100%;
+}
+
+.shop {
+    background-color: #296945;
+    padding-top: 100px;
+    padding-bottom: 95px;
+}
+
+.shop-top-title {
+    width: 180px;
+    margin-bottom: 55px;
+}
+
+.shop-items {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.shop-item-title {
+    font-family: 'ForumRegular', sans-serif;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.shop-item-title-left {
+    margin-bottom: 27px;
+}
+
+.shop-item-description {
+    max-width: 300px;
+    font-family: 'ManropeRegular', sans-serif;
+    font-size: 16px;
+    line-height: 155%;
+    color: #FFFFFF;
+    margin-bottom: 54px;
+}
+
+.map {
+    margin-bottom: 40px;
+}
+
+.shop-timetable {
+    max-width: 227px;
+    font-family: 'ManropeRegular', sans-serif;
+    font-size: 16px;
+    line-height: 155%;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.shop-live-items {
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+}
+
+.shop-live-item-text, .shop-live-item-text a {
+    font-family: 'ManropeRegular', sans-serif;
+    font-size: 16px;
+    color: #C1C0BB;
+    border-bottom: 2px solid #D9D9D9;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.shop-live-item-text:hover, .shop-live-item-text:hover a {
+    color: #aba8a5;
+    border-bottom: 2px solid #aba8a5;
+}
+
+.shop-item-title-right {
+    margin-bottom: 21px;
+}
+
+.shop-online {
+    width: 259px;
+    font-family: 'CaveatRegular', sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    color: #C1C0BB;
+}
+
+.shop-item-right .switch-to-online-shop-button {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    margin-bottom: 60px;
+}
+
+.shop-texts {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+.shop-text {
+    width: 600px;
+    font-family: 'ManropeRegular', sans-serif;
+    font-size: 16px;
+    line-height: 155%;
+    color: #FFFFFF;
+}
+
+
+.collection {
+    background-color: #F1E4D5;
+    padding-top: 120px;
+    padding-bottom: 160px;
+}
+
+.collection-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.collection-title {
+    width: 130px;
+}
+
+.collection-loves {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.collection-love {
+    width: 20px;
+}
+
+.collection-love img {
+    width: 100%;
+}
+
+.collection-h2 {
+    text-align: right;
+    max-width: 612px;
+}
+
+.collection-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 135px;
+}
+
+.collection-item-left {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.collection-item-small {
+    width: 350px;
+    height: 312px;
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.4));
+    position: relative;
+}
+
+.collection-item-small:hover {
+    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.6));
+}
+
+.collection-item-small-tea {
+    background-image: url("../images/collection/collection-tea.png");
+}
+
+.collection-item-small-man {
+    background-image: url("../images/collection/collection-man.png");
+}
+
+.collection-item-small img {
+    width: 100%;
+}
+
+.collection-item-right {
+    position: relative;
+    width: 404px;
+    height: 655px;
+    cursor: pointer;
+    background-image: url("../images/collection/collection-coffee.png");
+    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.4));
+}
+
+.collection-item-right:hover {
+    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.6));
+}
+
+.collection-item-right img {
+    width: 100%;
+}
+
+.collection-overlay {
+    width: 100%;
+    height: 100%;
+    border-radius: 42px;
+}
+
+.collection-coffee-img-overlay {
+    background: rgba(101, 86, 69, 0.54);
+}
+
+.collection-item-right:hover .collection-coffee-img-overlay {
+    background: rgba(86, 73, 58, 0.54);
+}
+
+.collection-tea-img-overlay {
+    background: rgba(13, 61, 34, 0.54);
+}
+
+.collection-item-small-tea:hover .collection-tea-img-overlay {
+    background: rgba(10, 45, 25, 0.54);
+}
+
+.collection-man-img-overlay {
+    background: rgba(22, 38, 59, 0.54);
+}
+
+.collection-item-small-man:hover .collection-man-img-overlay {
+    background: rgba(17, 30, 45, 0.54);
+}
+
+.collection-item-text {
+    width: 262px;
+    font-family: 'ForumRegular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+}
+
+.collection-item-text-tea, .collection-item-text-man {
+    top: calc(50% - 42px);
+    left: calc(50% - 131px);
+}
+
+.collection-item-text-coffee {
+    width: 295px;
+    text-align: right;
+    bottom: 26px;
+    right: 22px;
+}
+
+.footer {
+    padding-top: 35px;
+    padding-bottom: 70px;
+    background-color: #296945;
+}
+
+.footer-logo {
+    margin-bottom: 35px;
+    max-width: 78px;
+}
+
+.footer-logo img {
+    width: 100%;
+}
+
+.footer-items {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 80px;
+}
+
+.footer-item-left {
+    margin-right: 335px;
+}
+
+.footer-description {
+    width: 384px;
+    font-family: 'ManropeRegular', sans-serif;
+    font-size: 16px;
+    line-height: 180%;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.footer .shop-live-item-text {
+    width: 247px;
+}
+
+.footer-item-right {
+    margin-top: 20px;
+}
+
+.footer-item-right-transfers {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    margin-bottom: 30px;
+}
+
+.footer-item-right-transfer {
+    display: flex;
+    align-items: center;
+    column-gap: 17px;
+}
+
+.footer-item-right-title {
+    font-family: 'ForumRegular', sans-serif;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 65px;
+}
+
+.footer-item-right-transfer-image {
+    position: relative;
+    top: 4px;
+}
+
+.footer-item-right-transfer-text, .footer-item-right-transfer-text a {
+    font-family: 'ManropeRegular', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer .shop-timetable {
+    margin-bottom: 0;
+}
+
+.footer .social-sites {
+    justify-content: flex-start;
+}
+
+.footer-rights {
+    padding-top: 60px;
+    text-align: center;
+    border-top: 1px solid #FFFFFF;
+    font-family: 'ManropeRegular', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+}
