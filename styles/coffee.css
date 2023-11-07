@@ -1,0 +1,223 @@
+.header-sets {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.header-sets a {
+    text-decoration: none;
+    width: 33%;
+}
+
+.header-set {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 62px;
+    justify-content: center;
+    box-shadow: 0 5px 20px rgba(21, 21, 21, 0.2);
+}
+
+.header-set-coffee {
+    background-color: #A57558;
+    box-shadow: inset 0px 0px 50px rgba(21, 21, 21, 0.55);
+}
+
+.header-set-tea {
+    background-color: #296945;
+}
+
+.header-set-tea:hover {
+    background-color: #235b3d;
+}
+
+.header-set-man {
+    background-color: #16263B;
+}
+
+.header-set-man:hover {
+    background-color: #121f2f;
+}
+
+.header-set-img {
+    margin-right: 10px;
+    position: relative;
+    top: 3px;
+}
+
+.header-menu-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-set-title {
+    font-family: "ManropeExtraLight", sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    max-width: 243px;
+}
+
+.header-menu-nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.header-menu-nav ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "ManropeRegular", sans-serif;
+    color: #FFFFFF;
+}
+
+.header-menu-nav ul li:first-child {
+    margin-right: 60px;
+    margin-left: 52px;
+    position: relative;
+    top: 4px;
+}
+
+.header-menu-nav ul li:last-child {
+    margin-right: 0;
+}
+
+.header-menu-nav ul li {
+    margin-right: 35px;
+}
+
+.main {
+    padding-top: 140px;
+    padding-bottom: 88px;
+}
+
+.main-info {
+    max-width: 600px;
+    margin-bottom: 150px;
+}
+
+.main-info-h1 {
+    width: 790px;
+    font-family: 'ForumRegular', sans-serif;
+    font-size: 45px;
+    line-height: 50px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.main-info-description {
+    max-width: 680px;
+    font-family: 'CaveatRegular', sans-serif;
+    font-size: 35px;
+    line-height: 44px;
+    color: #F6F5F1;
+    margin-bottom: 70px;
+}
+
+.main-btn {
+    width: 298px;
+    padding: 24px 20px;
+    height: 78px;
+    border-radius: 35px 3px 35px 35px;
+    font-family: 'ManropeBold', sans-serif;
+    font-size: 16px;
+    color: #F6F5F1;
+    border: 0;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.main-btn-green {
+    background: #A57558;
+}
+
+.main-btn-green:hover {
+    background: #866147;
+}
+
+.main-contact-instagram {
+    text-align: right;
+}
+
+.main-contact-instagram a {
+    font-family: 'ManropeExtraLight', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.top-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #296945;
+    border-radius: 20px;
+    font-family: 'ManropeBold', sans-serif;
+    font-size: 9px;
+    color: #296945;
+    text-transform: uppercase;
+    height: 25px;
+}
+
+.top-title-white {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.top-title-black {
+    border: 1px solid #1F1F1F;
+    color: #1F1F1F;
+}
+
+.common-h2 {
+    font-family: 'ForumRegular', sans-serif;
+    font-size: 30px;
+    line-height: 155%;
+    color: #1F1F1F;
+    margin: 0 0 70px auto;
+}
+
+.collection-h2 {
+    text-align: right;
+    max-width: 612px;
+}
+
+.social-sites {
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-site {
+    width: 35px;
+}
+
+.social-site img {
+    width: 100%;
+}
+
+.shop-timetable {
+    max-width: 227px;
+    font-family: 'ManropeRegular', sans-serif;
+    font-size: 16px;
+    line-height: 155%;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.shop-live-item-text, .shop-live-item-text a {
+    font-family: 'ManropeRegular', sans-serif;
+    font-size: 16px;
+    color: #C1C0BB;
+    border-bottom: 2px solid #D9D9D9;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.shop-live-item-text:hover, .shop-live-item-text:hover a {
+    color: #aba8a5;
+    border-bottom: 2px solid #aba8a5;
+}

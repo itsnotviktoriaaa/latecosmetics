@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "ManropeExtraLight";
+    src: url("../fonts/Manrope-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "ManropeRegular";
+    src: url("../fonts/Manrope-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "ManropeMedium";
+    src: url("../fonts/Manrope-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "ManropeSemiBold";
+    src: url("../fonts/Manrope-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "ManropeBold";
+    src: url("../fonts/Manrope-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "ForumRegular";
+    src: url("../fonts/Forum-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "CaveatRegular";
+    src: url("../fonts/Caveat-Regular.ttf") format("truetype");
+}
+
+body {
+    background-color: hotpink;
+    color: #1F1F1F;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.text-bold {
+    font-family: "ManropeBold", sans-serif;
+}
+
+h1, h2 {
+    font-weight: unset;
+}

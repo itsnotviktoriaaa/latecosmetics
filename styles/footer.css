@@ -1,0 +1,90 @@
+.footer {
+    padding-top: 35px;
+    padding-bottom: 70px;
+    background-color: #296945;
+}
+
+.footer-logo {
+    margin-bottom: 35px;
+    max-width: 78px;
+}
+
+.footer-logo img {
+    width: 100%;
+}
+
+.footer-items {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 80px;
+}
+
+.footer-item-left {
+    margin-right: 335px;
+}
+
+.footer-description {
+    width: 384px;
+    font-family: 'ManropeRegular', sans-serif;
+    font-size: 16px;
+    line-height: 180%;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.footer .shop-live-item-text {
+    width: 247px;
+}
+
+.footer-item-right {
+    margin-top: 20px;
+}
+
+.footer-item-right-transfers {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    margin-bottom: 30px;
+}
+
+.footer-item-right-transfer {
+    display: flex;
+    align-items: center;
+    column-gap: 17px;
+}
+
+.footer-item-right-title {
+    font-family: 'ForumRegular', sans-serif;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 65px;
+}
+
+.footer-item-right-transfer-image {
+    position: relative;
+    top: 4px;
+}
+
+.footer-item-right-transfer-text, .footer-item-right-transfer-text a {
+    font-family: 'ManropeRegular', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer .shop-timetable {
+    margin-bottom: 0;
+}
+
+.footer .social-sites {
+    justify-content: flex-start;
+}
+
+.footer-rights {
+    padding-top: 60px;
+    text-align: center;
+    border-top: 1px solid #FFFFFF;
+    font-family: 'ManropeRegular', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+}
