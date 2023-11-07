@@ -221,3 +221,251 @@
     color: #aba8a5;
     border-bottom: 2px solid #aba8a5;
 }
+
+.man {
+    background-color: #F9F8F5;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.man-top-title {
+    width: 146px;
+    margin-bottom: 100px;
+}
+
+.man-items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    column-gap: 15px;
+    row-gap: 85px;
+}
+
+.man-item {
+    max-width: 546px;
+    height: 1181px;
+    padding: 44px 64px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+}
+
+.man-item-title {
+    font-family: 'ForumRegular', sans-serif;
+    font-size: 25px;
+    color: #1F1F1F;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.man-item-image {
+    max-width: 415px;
+    margin-bottom: 14px;
+}
+
+.man-item-image img {
+    width: 100%;
+}
+
+.man-item-points {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    height: 406px;
+}
+
+.man-item-point {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.man-item-point-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'ManropeExtraBold', sans-serif;
+    font-size: 8px;
+    color: #FFFFFF;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    background: #16263B;
+}
+
+.man-item-point-text {
+    max-width: 393px;
+    font-family: 'ManropeRegular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155%;
+    color: #1F1F1F;
+}
+
+.man-item-article {
+    font-family: 'ManropeRegular', sans-serif;
+    font-size: 10px;
+    line-height: 155%;
+    color: #1F1F1F;
+    margin-bottom: 15px;
+    margin-top: 80px;
+}
+
+.man-item-buttons {
+    display: flex;
+    align-items: center;
+    column-gap: 35px;
+}
+
+.man-item-button-buy-btn {
+    width: 142px;
+    height: 50px;
+    background: #16263B;
+    border-radius: 35px 3px 35px 35px;
+    font-family: 'ManropeBold', sans-serif;
+    font-size: 16px;
+    color: #F6F5F1;
+    border: 0;
+    cursor: pointer;
+}
+
+.man-item-button-buy-btn:hover {
+    background: #121f2f;
+}
+
+.man-item-button-detail-btn {
+    width: 237px;
+    height: 50px;
+    background: #A57558;
+    border-radius: 35px 35px 35px 3px;
+    font-family: 'ManropeBold', sans-serif;
+    font-size: 16px;
+    color: #F6F5F1;
+    border: 0;
+    cursor: pointer;
+}
+
+.man-item-button-detail-btn:hover {
+    background: #866147;
+}
+
+.look-video {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    margin-top: 24px;
+}
+
+.look-video-text {
+    border-bottom: 2px solid #D9D9D9;
+}
+
+.look-video-text:hover {
+    border-bottom: 2px solid #9f9c9a;
+}
+
+.look-video-text a {
+    color: #C1C0BB;
+    text-decoration: none;
+    font-family: 'CaveatRegular', sans-serif;
+    font-size: 20px;
+}
+
+.look-video-text:hover a {
+    color: #9f9c9a;
+}
+
+.look-video-arrow {
+    position: relative;
+    top: 10px;
+}
+
+.man-item-big {
+    width: 1106px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    padding: 44px 63px 31px 63px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+}
+
+.man-item-big-left {
+    position: relative;
+    z-index: 1;
+}
+
+.man-item-big .man-item-title {
+    margin-bottom: 24px;
+}
+
+.man-item-big .man-item-points {
+    height: unset;
+}
+
+.man-item-big .man-item-article {
+    margin-top: 115px;
+}
+
+.man-item-big-right {
+    position: absolute;
+    top: -50px;
+    right: -16px;
+    z-index: 0;
+}
+
+.man-item-big .man-item-image {
+    max-width: unset;
+    width: 649px;
+}
+
+.man-item-big.man-item-big-pink .man-item-article {
+    margin-top: 15px;
+}
+
+.second-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 56px;
+    margin-top: 115px;
+}
+
+.switch-to-online-shop-btn {
+    width: 326px;
+    height: 50px;
+    background: #16263B;
+    border-radius: 35px 3px 35px 35px;
+    border: 0;
+    font-family: 'ManropeBold', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    color: #F6F5F1;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.switch-to-online-shop-btn:hover {
+    background: #121f2f;
+}
+
+.switch-to-main-page-btn {
+    background: #A57558;
+    border-radius: 35px 35px 35px 3px;
+    width: 271px;
+    height: 50px;
+    font-family: 'ManropeBold', sans-serif;
+    font-size: 16px;
+    color: #F6F5F1;
+    border: 0;
+    cursor: pointer;
+}
+
+.switch-to-main-page-btn:hover {
+    background: #866147;
+}
