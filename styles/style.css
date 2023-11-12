@@ -28,11 +28,11 @@
 }
 
 .header-set-tea {
-    background-color: #296945;
+    background-color: #077D68;
 }
 
 .header-set-tea:hover {
-    background-color: #235b3d;
+    background-color: #056655;
 }
 
 .header-set-man {
@@ -127,11 +127,11 @@
 }
 
 .main-btn-green {
-    background: #296945;
+    background: #077D68;
 }
 
 .main-btn-green:hover {
-    background: #235b3d;
+    background: #056655;
 }
 
 .main-contact-instagram {
@@ -155,11 +155,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #296945;
+    border: 1px solid #077D68;
     border-radius: 20px;
     font-family: 'ManropeBold', sans-serif;
     font-size: 9px;
-    color: #296945;
+    color: #077D68;
     text-transform: uppercase;
     height: 25px;
 }
@@ -454,7 +454,7 @@
 .switch-to-online-shop-btn {
     width: 326px;
     height: 50px;
-    background: #296945;
+    background: #077D68;
     border-radius: 35px 3px 35px 35px;
     border: 0;
     font-family: 'ManropeBold', sans-serif;
@@ -466,11 +466,11 @@
 }
 
 .switch-to-online-shop-btn:hover {
-    background: #235b3d;
+    background: #056655;
 }
 
 .switch-to-online-shop-btn-white {
-    color: #296945;
+    color: #077D68;
     background: #ffffff;
 }
 
@@ -494,7 +494,7 @@
 }
 
 .shop {
-    background-color: #296945;
+    background-color: #077D68;
     padding-top: 100px;
     padding-bottom: 95px;
 }

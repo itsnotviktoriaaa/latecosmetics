@@ -1,3 +1,7 @@
+.banner-tea {
+    background-color: hotpink;
+}
+
 .header-sets {
     display: flex;
     align-items: center;
@@ -28,11 +32,11 @@
 }
 
 .header-set-tea {
-    background-color: #296945;
+    background-color: #077D68;
 }
 
 .header-set-tea:hover {
-    background-color: #235b3d;
+    background-color: #056655;
 }
 
 .header-set-man {
@@ -108,7 +112,7 @@
 }
 
 .main-info-description {
-    max-width: 680px;
+    max-width: 588px;
     font-family: 'CaveatRegular', sans-serif;
     font-size: 35px;
     line-height: 44px;
@@ -152,11 +156,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #296945;
+    border: 1px solid #077D68;
     border-radius: 20px;
     font-family: 'ManropeBold', sans-serif;
     font-size: 9px;
-    color: #296945;
+    color: #077D68;
     text-transform: uppercase;
     height: 25px;
 }
@@ -360,6 +364,7 @@
 
 .look-video-text {
     border-bottom: 2px solid #D9D9D9;
+    cursor: pointer;
 }
 
 .look-video-text:hover {
