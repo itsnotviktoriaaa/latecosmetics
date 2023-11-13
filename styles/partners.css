@@ -73,6 +73,10 @@ body {
     align-items: center;
 }
 
+.header-menu-nav ul li {
+    cursor: pointer;
+}
+
 .header-menu-nav ul li a {
     text-decoration: none;
     font-size: 14px;
@@ -146,4 +150,135 @@ body {
 
 .social-site img {
     width: 100%;
+}
+
+.social-site img:hover {
+    transform: scale(1.1);
+}
+
+.partners {
+    padding-bottom: 120px;
+    padding-top: 60px;
+}
+
+.partners-welcome-common {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.partners-welcome, .get-price, .condition {
+    font-family: 'ForumRegular', sans-serif;
+    font-size: 75px;
+    line-height: 83px;
+    color: #1F1F1F;
+    text-transform: uppercase;
+}
+
+.get-price, .condition {
+    font-size: 50px;
+    text-transform: unset;
+}
+
+.condition {
+    font-size: 35px;
+}
+
+.condition-description {
+    font-family: 'ForumRegular', sans-serif;
+    font-size: 25px;
+    line-height: 155%;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.partners-welcome-image {
+    max-width: 410px;
+}
+
+.partners-welcome-image img {
+    width: 100%;
+}
+
+.partners-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.manager {
+    max-width: 606px;
+    font-family: 'ManropeRegular', sans-serif;
+    font-size: 20px;
+    line-height: 155%;
+    text-align: center;
+    color: #1F1F1F;
+    margin-bottom: 30px;
+}
+
+.partners-form {
+    max-width: 996px;
+    padding: 50px 78px;
+    box-sizing: border-box;
+    background: #F1E4D5;
+    border-radius: 60px;
+}
+
+.partners-form-h5 {
+    font-family: 'ForumRegular', sans-serif;
+    font-size: 45px;
+    line-height: 50px;
+    color: #1F1F1F;
+    margin-bottom: 56px;
+    font-weight: unset;
+}
+
+.partners-form-group {
+    margin-bottom: 25px;
+}
+
+.partners-form-group-input {
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border-bottom: 1px solid #242323;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding-bottom: 12px;
+    padding-right: 15px;
+    font-family: 'ManropeRegular', sans-serif;
+    font-size: 30px;
+    line-height: 155%;
+    color: #7B7B7B;
+    outline: none;
+}
+
+.partners-form-group-input::placeholder {
+    font-family: 'ManropeRegular', sans-serif;
+    font-size: 30px;
+    line-height: 155%;
+    color: #7B7B7B;
+}
+
+.partners-form-button {
+    margin-top: 40px;
+}
+
+.partners-form-button-btn {
+    font-family: 'ManropeMedium', sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    width: 100%;
+    height: 60px;
+    background: #1F1F1F;
+    border-radius: 1000px;
+    border: 0;
+    cursor: pointer;
+}
+
+.partners-form-button-btn:hover {
+    background: #131313;
 }

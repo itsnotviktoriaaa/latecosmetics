@@ -81,7 +81,7 @@ h1, h2, h3, h4 {
 }
 
 .more-detail {
-    max-width: 1120px;
+    max-width: 1440px;
     padding: 30px 57px 64px 57px;
     background: #FFFFFF;
     border-radius: 30px;
@@ -89,4 +89,12 @@ h1, h2, h3, h4 {
     font-size: 16px;
     line-height: 155%;
     color: #1F1F1F;
+}
+
+.error {
+    display: none;
+    margin-top: 6px;
+    color: red;
+    font-size: 11px;
+    font-family: "ManropeRegular", sans-serif;
 }

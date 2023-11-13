@@ -1,5 +1,5 @@
 .banner-tea {
-    background-color: hotpink;
+    background-image: url("../images/La-and-Te-beaute_banner_men.png");
 }
 
 .header-sets {
@@ -68,6 +68,10 @@
     list-style: none;
     display: flex;
     align-items: center;
+}
+
+.header-menu-nav ul li {
+    cursor: pointer;
 }
 
 .header-menu-nav ul li a {
@@ -201,6 +205,10 @@
 
 .social-site img {
     width: 100%;
+}
+
+.social-site img:hover {
+    transform: scale(1.1);
 }
 
 .shop-timetable {
