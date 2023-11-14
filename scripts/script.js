@@ -12,7 +12,14 @@ $(document).ready(function () {
                     slidesToShow: 2,
                     slidesToScroll: 2
                 }
-            }
+            },
+            {
+                breakpoint: 650,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },
         ],
         dotsClass: "my-dots",
         // autoplay: true

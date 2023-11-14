@@ -213,6 +213,16 @@
 
 }
 
+@media screen and (max-width: 630px) {
+
+    .my-dots {
+        width: 280px;
+        flex-wrap: wrap;
+        margin: 20px auto 0 auto;
+        row-gap: 20px;
+    }
+
+}
 
 @media screen and (max-width: 589px) {
 
@@ -252,4 +262,79 @@
     .footer .shop-live-item-text {
         width: 206px;
     }
+}
+
+@media screen and (max-width: 494px) {
+
+}
+
+@media screen and (max-width: 408px) {
+
+    .trust-item-a {
+        max-width: 160px;
+    }
+
+    .map iframe {
+        max-width: 335px;
+    }
+
+    .shop-live-item {
+        width: 33px;
+    }
+
+    .shop-live-item-text, .shop-live-item-text a {
+        width: 198px;
+        text-align: center;
+        border-bottom: unset;
+    }
+}
+
+@media screen and (max-width: 370px) {
+
+
+    .trust-items {
+        justify-content: center;
+    }
+
+    .trust-item-a {
+        max-width: 215px;
+    }
+
+}
+
+@media screen and (max-width: 355px) {
+
+    .map iframe {
+        max-width: 282px;
+    }
+
+    .switch-to-online-shop-btn {
+        width: 280px;
+    }
+
+    .collection-item-small, .collection-item-right {
+        width: 285px;
+    }
+
+    .collection-item-right {
+        background-position-y: -53px;
+        background-position-x: -27px;
+    }
+
+}
+
+@media screen and (max-width: 349px) {
+
+    .certificate-item-text a {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 343px) {
+
+    .main-btn {
+        width: 100%;
+    }
+
 }
