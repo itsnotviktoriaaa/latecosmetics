@@ -1,0 +1,255 @@
+@media screen and (max-width: 1250px) {
+
+    .slick-prev, .slick-next {
+        display: none !important;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    .header-menu-nav ul li:first-child {
+        margin-left: unset;
+    }
+
+    .footer-items {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+   .footer-item-left {
+       margin-right: 0;
+   }
+
+}
+
+@media screen and (max-width: 1172px) {
+
+    .trust-certificate-items-left {
+        max-width: unset;
+    }
+
+    .trust-certificate-item-left-text {
+        margin-bottom: 3px;
+    }
+
+    .trust-certificate-item-advantage:not(:first-child) .trust-certificate-item-advantage-text {
+        width: unset;
+    }
+
+
+    .trust-certificate-items {
+        row-gap: 40px;
+    }
+
+    .trust-certificate-item-advantages {
+        flex-direction: row;
+        column-gap: 25px;
+    }
+
+}
+
+@media screen and (max-width: 1155px) {
+
+    .click-and-look-arrow svg {
+        transform: rotate(45deg);
+    }
+
+}
+
+@media screen and (max-width: 1143px) {
+
+    .map iframe {
+        width: 100vw;
+        max-width: 983px;
+    }
+
+    .shop-items {
+        row-gap: 60px;
+    }
+
+    .shop-text {
+        width: unset;
+    }
+
+    .shop-item-right .switch-to-online-shop-button {
+        margin-bottom: 50px;
+    }
+
+}
+
+@media screen and (max-width: 1027px) {
+
+    .map iframe {
+        width: 100vw;
+        max-width: 700px;
+    }
+
+}
+
+@media screen and (max-width: 1023px) {
+
+    .about-company-item-left {
+        max-width: unset;
+    }
+
+    .about-company-items {
+        row-gap: 65px;
+    }
+
+    .about-company-item-right {
+        max-width: unset;
+    }
+
+    .about-company-item-image {
+        margin: 0 auto;
+    }
+
+    .about-company-item-right {
+        row-gap: 25px;
+    }
+
+    .trust-h2 {
+        margin: 70px 0 70px auto;
+    }
+
+}
+
+@media screen and (max-width: 912px) {
+
+    .collection-items {
+        justify-content: space-between;
+        column-gap: 0;
+    }
+
+}
+
+/*for 768*/
+
+@media screen and (max-width: 815px) {
+
+    .collection-items {
+        column-gap: 0;
+        justify-content: space-between;
+    }
+
+    .collection-item-right {
+        width: 310px;
+    }
+
+    .collection-item-small {
+        width: 312px;
+    }
+
+}
+
+/*for 500*/
+@media screen and (max-width: 720px) {
+
+    .collection-items {
+        column-gap: 0;
+        justify-content: space-between;
+    }
+
+    .collection-item-right {
+        width: 310px;
+    }
+
+    .collection-item-small {
+        width: 312px;
+    }
+
+    .map iframe {
+        max-width: 455px;
+    }
+
+}
+
+
+@media screen and (max-width: 693px) {
+
+    .trust-certificate-item-advantages {
+        flex-wrap: wrap;
+    }
+
+    .collection-wrapper {
+        flex-direction: column;
+    }
+
+    .collection-h2 {
+        margin: 55px 0 70px auto;
+        text-align: left;
+    }
+
+    .collection-items {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .collection-item-right {
+        height: 312px;
+        width: 312px;
+    }
+
+    .collection-item-text-coffee {
+        top: calc(50% - 42px);
+        left: calc(50% - 148px);
+        text-align: center;
+        bottom: unset;
+        right: unset;
+    }
+
+    .footer-items {
+        row-gap: 35px;
+    }
+
+    .footer-description {
+        width: unset;
+    }
+
+    .footer-item-right-title {
+        margin-bottom: 30px;
+    }
+
+}
+
+
+@media screen and (max-width: 589px) {
+
+    .header-menu-nav ul li:first-child {
+        margin-right: unset;
+    }
+
+    .header-menu-nav ul {
+        justify-content: space-between;
+    }
+
+    .header-menu-nav ul li {
+        margin-right: unset;
+    }
+
+}
+
+/*425px*/
+@media screen and (max-width: 500px) {
+
+    .trust-item-a {
+        max-width: 187px;
+    }
+
+    .click-and-look {
+        margin-left: 25px;
+    }
+
+    .map iframe {
+        max-width: 383px;
+    }
+
+    .shop-live-item-text, .shop-live-item-text a {
+        font-size: 13px;
+    }
+
+    .footer .shop-live-item-text {
+        width: 206px;
+    }
+}

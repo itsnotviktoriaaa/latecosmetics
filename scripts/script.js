@@ -5,8 +5,17 @@ $(document).ready(function () {
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 3,
+        responsive: [
+            {
+                breakpoint: 1250,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            }
+        ],
         dotsClass: "my-dots",
-        autoplay: true
+        // autoplay: true
     });
 
     document.getElementById('main-btn-to-collection').onclick = function () {

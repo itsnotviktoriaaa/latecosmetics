@@ -188,6 +188,8 @@
 
 .about-company-items {
     display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
     justify-content: space-between;
 }
 
@@ -291,6 +293,7 @@
 
 .trust-certificate-items {
     display: flex;
+    flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-between;
     margin-top: 60px;
@@ -359,7 +362,7 @@
 }
 
 .trust-certificate-item-advantage-text {
-    width: 268px;
+    width: 232px;
     font-family: 'ManropeRegular', sans-serif;
     font-size: 16px;
     line-height: 155%;
@@ -518,6 +521,7 @@
 
 .shop-items {
     display: flex;
+    flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-between;
 }
@@ -590,6 +594,8 @@
     display: flex;
     align-items: center;
     column-gap: 15px;
+    flex-wrap: wrap;
+    row-gap: 15px;
     margin-bottom: 60px;
 }
 

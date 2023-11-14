@@ -1,0 +1,23 @@
+@media screen and (max-width: 2560px) and (min-width: 1600px) {
+
+    .banner-coffee .container {
+        max-width: 1500px;
+    }
+
+    .banner-tea .container {
+        max-width: 1500px;
+    }
+
+    .banner-man .container {
+        max-width: 1500px;
+    }
+
+}
+
+@media screen and (max-width: 1231px) {
+
+    .container {
+        padding: 0 20px;
+    }
+
+}
