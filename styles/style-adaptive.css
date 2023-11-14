@@ -506,11 +506,23 @@
     }
 }
 
-@media screen and (max-width: 408px) {
+@media screen and (max-width: 424px) {
+
+    .trust-item-a {
+        max-width: 175px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
 
     .trust-item-a {
         max-width: 160px;
     }
+
+}
+
+@media screen and (max-width: 408px) {
 
     .map iframe {
         max-width: 335px;
