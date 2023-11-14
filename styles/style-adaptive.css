@@ -115,6 +115,23 @@
 
 }
 
+@media screen and (max-width: 1002px) {
+
+    .header-set {
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    .header-set-title {
+        display: none;
+    }
+
+    .header-set-title-middle {
+        display: block;
+    }
+
+}
+
 @media screen and (max-width: 912px) {
 
     .collection-items {
@@ -139,6 +156,18 @@
 
     .collection-item-small {
         width: 312px;
+    }
+
+}
+
+@media screen and (max-width: 769px) {
+
+    .header-set-img {
+        width: 30px;
+    }
+
+    .header-set-img img {
+        width: 100%;
     }
 
 }
@@ -209,6 +238,26 @@
 
     .footer-item-right-title {
         margin-bottom: 30px;
+    }
+
+}
+
+@media screen and (max-width: 655px) {
+
+    .header-set {
+        flex-direction: column;
+        row-gap: 3px;
+        height: 75px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .header-set-img {
+        margin-right: 0;
+    }
+
+    .header-set-title-middle {
+        text-align: center;
     }
 
 }
@@ -316,6 +365,18 @@
 
 }
 
+@media screen and (max-width: 568px) {
+
+    .header-set {
+        padding: 0 3px;
+    }
+
+    .header-set-img {
+        width: 16px;
+    }
+
+}
+
 @media screen and (max-width: 589px) {
 
     .header-menu-nav ul li:first-child {
@@ -368,6 +429,20 @@
     }
 }
 
+@media screen and (max-width: 485px) {
+    .header-menu-nav ul {
+        justify-content: space-between;
+        column-gap: 10px;
+        flex-wrap: wrap;
+        row-gap: 10px;
+    }
+
+    .header-menu-nav ul li:first-child {
+        width: 100%;
+        text-align: center;
+    }
+}
+
 @media screen and (max-width: 453px) {
     .shop-live-item-text, .shop-live-item-text a {
         font-size: 13px;
@@ -376,6 +451,23 @@
     .footer .shop-live-item-text {
         width: 204px;
 
+    }
+}
+
+@media screen and (max-width: 443px) {
+    .main-info-h1 {
+        font-size: 28px;
+    }
+
+    .main-info-description {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 431px) {
+    .main-btn {
+        font-size: 15px;
+        height: 55px;
     }
 }
 
@@ -434,6 +526,26 @@
     }
 }
 
+@media screen and (max-width: 403px) {
+
+    .header-set {
+        height: 124px;
+    }
+}
+
+
+@media screen and (max-width: 393px) {
+    .main-info-h1 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .main-info-description {
+        font-size: 20px;
+        line-height: 32px;
+    }
+}
+
 @media screen and (max-width: 370px) {
 
 
@@ -488,6 +600,19 @@
 
     .main-btn {
         width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 342px) {
+
+    .main-info-h1 {
+        font-size: 22px;
+    }
+
+    .main-info-description {
+        font-size: 19px;
+        line-height: 23px;
     }
 
 }

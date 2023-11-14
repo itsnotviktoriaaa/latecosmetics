@@ -45,9 +45,14 @@
 }
 
 .header-set-img {
+    width: 49px;
     margin-right: 10px;
     position: relative;
     top: 3px;
+}
+
+.header-set-img img {
+    width: 100%;
 }
 
 .header-menu-nav {
@@ -62,6 +67,10 @@
     line-height: 16px;
     color: #FFFFFF;
     max-width: 243px;
+}
+
+.header-set-title-middle {
+    display: none;
 }
 
 .header-menu-nav ul {
