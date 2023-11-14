@@ -213,6 +213,15 @@
 
 }
 
+@media screen and (max-width: 640px) {
+
+    .shop-online {
+        text-align: center;
+        width: 326px;
+    }
+
+}
+
 @media screen and (max-width: 630px) {
 
     .my-dots {
@@ -220,6 +229,89 @@
         flex-wrap: wrap;
         margin: 20px auto 0 auto;
         row-gap: 20px;
+    }
+
+}
+
+@media screen and (max-width: 607px) {
+
+    .main {
+        padding-top: 95px;
+    }
+
+    .main-info {
+        margin-bottom: 65px;
+    }
+
+    .main-info-h1 {
+        font-size: 32px;
+        line-height: 37px;
+    }
+
+    .main-info-description {
+        font-size: 25px;
+        line-height: 34px;
+        margin-bottom: 60px;
+    }
+
+    .main-btn {
+        width: 100%;
+        padding: 15px 20px;
+        height: 67px;
+    }
+
+    .about-company {
+        padding-top: 95px;
+    }
+
+    .about-company-item-left .about-company-item-text:first-child {
+        margin-top: 65px;
+    }
+
+    .about-company-item {
+        font-size: 15px;
+    }
+
+    .common-h2, .trust-certificate-item-left-text {
+        font-size: 24px;
+        line-height: 135%;
+    }
+
+    .middle-ball.common-h2 {
+        margin: 0 0 50px auto;
+    }
+
+    .reviews {
+        padding-bottom: 85px;
+    }
+
+    .reviews-common-title-wrapper {
+        margin: 0 0 46px auto;
+    }
+
+    .shop {
+        padding-top: 85px;
+    }
+
+    .shop-live-item {
+        width: 37px;
+    }
+
+    .shop-text {
+        font-size: 15px;
+    }
+
+    .collection {
+        padding-top: 95px;
+        padding-bottom: 100px;
+    }
+
+    .collection-item-text {
+        font-size: 24px;
+    }
+
+    .footer-description {
+        font-size: 15px;
     }
 
 }
@@ -256,16 +348,70 @@
     }
 
     .shop-live-item-text, .shop-live-item-text a {
+        font-size: 15px;
+    }
+
+    .footer {
+        padding-bottom: 35px;
+    }
+
+    .footer .shop-live-item-text {
+        width: 233px;
+    }
+
+    .footer-items {
+        margin-bottom: 60px;
+    }
+
+    .footer-rights {
+        padding-top: 35px;
+    }
+}
+
+@media screen and (max-width: 453px) {
+    .shop-live-item-text, .shop-live-item-text a {
         font-size: 13px;
     }
 
     .footer .shop-live-item-text {
-        width: 206px;
+        width: 204px;
+
     }
 }
 
-@media screen and (max-width: 494px) {
+@media screen and (max-width: 429px) {
 
+    .reviews {
+        padding-top: 35px;
+    }
+
+    .trust-h2 {
+        margin: 52px 0 52px auto;
+    }
+
+    .common-h2, .trust-certificate-item-left-text {
+        font-size: 20px;
+    }
+
+    .trust-certificate-item-advantage-text {
+        font-size: 14px;
+    }
+
+    .certificate-item-text a {
+        font-size: 14px;
+    }
+
+    .collection-h2 {
+        margin: 55px 0 55px auto;
+    }
+
+    .footer-item-right-transfer-text, .footer-item-right-transfer-text a {
+        font-size: 16px;
+    }
+
+    .footer-rights {
+        font-size: 13px;
+    }
 }
 
 @media screen and (max-width: 408px) {
@@ -283,9 +429,8 @@
     }
 
     .shop-live-item-text, .shop-live-item-text a {
-        width: 198px;
         text-align: center;
-        border-bottom: unset;
+        border-bottom: 0;
     }
 }
 
@@ -298,6 +443,14 @@
 
     .trust-item-a {
         max-width: 215px;
+    }
+
+}
+
+@media screen and (max-width: 361px) {
+
+    .shop-online {
+        width: 285px;
     }
 
 }
