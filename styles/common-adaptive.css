@@ -41,6 +41,14 @@
 
 }
 
+@media screen and (max-width: 1147px) {
+
+    .coffees-item, .tea-item, .man-item {
+        padding: 44px 43px;
+    }
+
+}
+
 @media screen and (max-width: 1117px) {
 
     .coffees-item-big, .tea-item-big, .man-item-big {
@@ -51,6 +59,26 @@
         display: block;
     }
 
+}
+
+@media screen and (max-width: 1061px) {
+
+    .coffees-top-title, .tea-top-title, .man-top-title {
+        margin-bottom: 55px;
+    }
+
+    .coffees-items, .tea-items, .man-items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .coffees-item-points, .tea-item-points, .man-item-points {
+        height: auto;
+    }
+
+    .coffees-item, .tea-item, .man-item {
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 1002px) {
@@ -198,6 +226,21 @@
 
 }
 
+@media screen and (max-width: 680px) {
+
+    .coffees, .tea, .man {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+
+    .second-buttons {
+        flex-direction: column;
+        row-gap: 15px;
+        margin-top: 60px;
+    }
+
+}
+
 @media screen and (max-width: 655px) {
 
     .header-set {
@@ -306,6 +349,58 @@
 
 }
 
+@media screen and (max-width: 535px) {
+
+    .coffees-items, .tea-items, .man-items {
+        row-gap: 45px;
+    }
+
+    .coffees-item, .tea-item, .man-item {
+        padding: 44px 29px;
+    }
+
+    .coffees-item-title, .tea-item-title, .man-item-title {
+        font-size: 16px;
+    }
+
+    .coffees-item-image, .tea-item-image, .man-item-image {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .coffees-item-point-text, .tea-item-point-text, .man-item-point-text {
+        font-size: 14px;
+        width: 393px;
+    }
+
+    .coffees-item-buttons, .tea-item-buttons, .man-item-buttons {
+        flex-direction: column;
+        row-gap: 15px;
+    }
+
+    .coffees-item-button-buy-btn, .tea-item-button-buy-btn, .man-item-button-buy-btn {
+        width: 237px;
+    }
+
+    .coffees-item-article, .tea-item-article, .man-item-article {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .look-video {
+        justify-content: center;
+    }
+
+    .look-video-text a {
+        font-size: 16px;
+    }
+
+    .look-video-arrow {
+        width: 18px;
+    }
+
+}
+
 /*425px*/
 @media screen and (max-width: 500px) {
 
@@ -330,6 +425,28 @@
     }
 }
 
+@media screen and (max-width: 515px) {
+
+    .coffees-item-point, .tea-item-point, .man-item-point {
+        flex-direction: column;
+        row-gap: 4px;
+    }
+
+    .coffees-item-point-text, .tea-item-point-text, .man-item-point-text {
+        width: 330px;
+        text-align: center;
+    }
+
+    .coffees-item-button-buy-btn, .tea-item-button-buy-btn, .man-item-button-buy-btn, .coffees-item-button-detail-btn, .tea-item-button-detail-btn, .man-item-button-detail-btn {
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .footer-description {
+        font-size: 14px;
+    }
+}
+
 @media screen and (max-width: 453px) {
     .shop-live-item-text, .shop-live-item-text a {
         font-size: 13px;
@@ -337,6 +454,10 @@
 
     .footer .shop-live-item-text {
         width: 204px;
+    }
+
+    .footer-description {
+        font-size: 13px;
     }
 }
 
@@ -375,6 +496,12 @@
     }
 }
 
+@media screen and (max-width: 423px) {
+    .coffees-item-point-text, .tea-item-point-text, .man-item-point-text {
+        width: 290px;
+    }
+}
+
 @media screen and (max-width: 408px) {
     .shop-live-item-text, .shop-live-item-text a {
         text-align: center;
@@ -399,6 +526,29 @@
     .main-info-description {
         font-size: 20px;
         line-height: 32px;
+    }
+}
+
+@media screen and (max-width: 386px) {
+    .coffees-item-point-text, .tea-item-point-text, .man-item-point-text {
+        width: 207px;
+    }
+
+    .coffees-item, .tea-item, .man-item {
+        padding: 44px 22px;
+    }
+
+    .switch-to-online-shop-btn, .switch-to-main-page-btn {
+        width: 292px;
+        font-size: 14px;
+        height: 46px;
+        line-height: unset;
+    }
+}
+
+@media screen and (max-width: 383px) {
+    .coffees-item-image, .tea-item-image, .man-item-image {
+        max-width: 264px;
     }
 }
 
@@ -432,6 +582,14 @@
     .main-info-description {
         font-size: 19px;
         line-height: 23px;
+    }
+
+}
+
+@media screen and (max-width: 341px) {
+
+    .look-video-text a {
+        font-size: 14px;
     }
 
 }

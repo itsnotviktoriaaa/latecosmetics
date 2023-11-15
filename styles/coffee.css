@@ -401,8 +401,13 @@
 }
 
 .look-video-arrow {
+    width: 24px;
     position: relative;
     top: 10px;
+}
+
+.look-video-arrow svg {
+    width: 100%;
 }
 
 .coffees-item-big {
