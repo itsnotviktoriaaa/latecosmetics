@@ -63,6 +63,15 @@ $(document).ready(function () {
         $('#ltmen3').css('display', 'none');
     });
 
+    //
+    $('#ltmen1-item-middle').click(function () {
+        $('#ltmen1-middle').css('display', 'flex');
+    });
+
+    $('#ltmen1-middle-cancel').click(function () {
+        $('#ltmen1-middle').css('display', 'none');
+    });
+
     document.getElementById('man-btn-to-man').onclick = function () {
         document.getElementById('man').scrollIntoView({behavior: "smooth"});
     }

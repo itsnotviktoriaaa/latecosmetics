@@ -91,6 +91,24 @@ $(document).ready(function () {
     });
 
     //
+    $('#lt14r-item-middle').click(function () {
+        $('#lt14r-middle').css('display', 'flex');
+    });
+
+    $('#lt14r-middle-cancel').click(function () {
+        $('#lt14r-middle').css('display', 'none');
+    });
+
+    //
+    $('#lt3r-item-middle').click(function () {
+        $('#lt3r-middle').css('display', 'flex');
+    });
+
+    $('#lt3r-middle-cancel').click(function () {
+        $('#lt3r-middle').css('display', 'none');
+    });
+
+    //
     $('#lt13-video-item').click(function () {
         $('#lt13-video').css('display', 'flex');
     });

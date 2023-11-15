@@ -41,6 +41,18 @@
 
 }
 
+@media screen and (max-width: 1117px) {
+
+    .coffees-item-big, .tea-item-big, .man-item-big {
+        display: none;
+    }
+
+    .coffees-item-big-middle, .tea-item-big-middle, .man-item-big-middle {
+        display: block;
+    }
+
+}
+
 @media screen and (max-width: 1002px) {
 
     .header-set {

@@ -90,6 +90,25 @@ $(document).ready(function () {
         $('#lt25Bag').css('display', 'none');
     });
 
+    //
+    $('#lt3gr-item-middle').click(function () {
+        $('#lt3gr-middle').css('display', 'flex');
+    });
+
+    $('#lt3gr-middle-cancel').click(function () {
+        $('#lt3gr-middle').css('display', 'none');
+    });
+
+    //
+    $('#lt4gr-item-middle').click(function () {
+        $('#lt4gr-middle').css('display', 'flex');
+    });
+
+    $('#lt4gr-middle-cancel').click(function () {
+        $('#lt4gr-middle').css('display', 'none');
+    });
+
+
     document.getElementById('tea-btn-to-tea').onclick = function () {
         document.getElementById('tea').scrollIntoView({behavior: "smooth"});
     }

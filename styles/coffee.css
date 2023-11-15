@@ -418,6 +418,10 @@
     position: relative;
 }
 
+.coffees-item-big-middle {
+    display: none;
+}
+
 .coffees-item-big-left {
     position: relative;
     z-index: 1;

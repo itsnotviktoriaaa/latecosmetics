@@ -491,3 +491,7 @@
 .switch-to-main-page-btn:hover {
     background: #866147;
 }
+
+.tea-item-big-middle {
+    display: none;
+}
