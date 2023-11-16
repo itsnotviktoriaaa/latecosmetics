@@ -58,6 +58,42 @@
 
 }
 
+@media screen and (max-width: 826px) {
+    .partners-welcome-common {
+        display: none;
+    }
+
+    .partners-welcome, .get-price, .condition {
+        font-size: 54px;
+    }
+
+    .get-price, .condition {
+        font-size: 40px;
+        line-height: 65px;
+    }
+
+    .condition {
+        font-size: 35px;
+    }
+
+    .partners-welcome-common-middle {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .partners-welcome-first {
+        margin-right: 20px;
+    }
+
+    .partners-welcome-image {
+        max-width: 225px;
+    }
+
+    .partners-welcome-common-middle {
+        margin-bottom: 50px;
+    }
+}
+
 /*for 768*/
 
 @media screen and (max-width: 769px) {
@@ -89,6 +125,16 @@
 
 }
 
+@media screen and (max-width: 688px) {
+    .main-contact-instagram {
+        display: none;
+    }
+
+    .main-contact-instagram-middle {
+        display: block;
+    }
+}
+
 @media screen and (max-width: 655px) {
 
     .header-set {
@@ -117,14 +163,68 @@
 
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 605px) {
 
-    .header-set {
-        padding: 0 3px;
+    .manager {
+        font-size: 16px;
     }
 
-    .header-set-img {
-        width: 16px;
+    .condition-description {
+        font-size: 20px;
+        margin-bottom: 55px;
+    }
+
+    .partners-form-h5 {
+        font-size: 25px;
+        line-height: 28px;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    .partners-form {
+        padding: 50px 30px;
+        border-radius: 25px;
+    }
+
+    .partners-form-group-input {
+        font-size: 17px;
+    }
+
+    .partners-form-group-input::placeholder, .partners-form-group textarea {
+        font-size: 17px;
+    }
+
+    .partners-form-group-input {
+        padding-bottom: 2px;
+    }
+
+    .partners-form-button-btn {
+        height: 50px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 596px) {
+
+    .header-menu-nav {
+        justify-content: center;
+    }
+
+    .header-menu-nav ul {
+        justify-content: space-between;
+        column-gap: 10px;
+        flex-wrap: wrap;
+        row-gap: 10px;
+    }
+
+    .header-menu-nav ul li:first-child {
+        width: 100%;
+        text-align: center;
+        margin-right: unset;
+    }
+
+    .header-menu-nav ul li {
+        margin-right: unset;
     }
 
 }
@@ -145,8 +245,24 @@
 
 }
 
+@media screen and (max-width: 568px) {
+
+    .header-set {
+        padding: 0 3px;
+    }
+
+    .header-set-img {
+        width: 16px;
+    }
+
+}
+
 /*425px*/
 @media screen and (max-width: 500px) {
+
+    .partners-welcome-image {
+        max-width: 185px;
+    }
 
     .shop-live-item-text, .shop-live-item-text a {
         font-size: 15px;
@@ -169,20 +285,6 @@
     }
 }
 
-@media screen and (max-width: 485px) {
-    .header-menu-nav ul {
-        justify-content: space-between;
-        column-gap: 10px;
-        flex-wrap: wrap;
-        row-gap: 10px;
-    }
-
-    .header-menu-nav ul li:first-child {
-        width: 100%;
-        text-align: center;
-    }
-}
-
 @media screen and (max-width: 453px) {
     .shop-live-item-text, .shop-live-item-text a {
         font-size: 13px;
@@ -190,6 +292,10 @@
 
     .footer .shop-live-item-text {
         width: 204px;
+    }
+
+    .footer-description {
+        font-size: 13px;
     }
 }
 
@@ -218,8 +324,30 @@
     }
 }
 
+@media screen and (max-width: 396px) {
+    .main-contact-instagram a {
+        font-size: 14px;
+    }
 
-.partners {
-    /*удалить*/
-    display: none;
+    .partners-welcome {
+        font-size: 47px;
+        line-height: 1;
+    }
+
+    .manager {
+        font-size: 14px;
+    }
+
+    .get-price, .condition {
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .condition {
+        font-size: 25px;
+    }
+
+    .partners-form-h5 {
+        font-size: 24px;
+    }
 }
