@@ -126,9 +126,9 @@
 
 .main-info-description {
     max-width: 588px;
-    font-family: 'CaveatRegular', sans-serif;
-    font-size: 35px;
-    line-height: 44px;
+    font-family: 'ManropeLight', sans-serif;
+    font-size: 20px;
+    line-height: normal;
     color: #F6F5F1;
     margin-bottom: 70px;
 }

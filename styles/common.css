@@ -10,6 +10,11 @@
 }
 
 @font-face {
+    font-family: "ManropeLight";
+    src: url("../fonts/Manrope-Light.ttf") format("truetype");
+}
+
+@font-face {
     font-family: "ManropeRegular";
     src: url("../fonts/Manrope-Regular.ttf") format("truetype");
 }
