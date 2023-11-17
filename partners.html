@@ -137,26 +137,26 @@
             <form action="" class="partners-form">
                 <h5 class="partners-form-h5">Заполните форму для заказа прайслиста</h5>
                 <div class="partners-form-group">
-                    <input class="partners-form-group-input" type="text" placeholder="ФИО*">
+                    <input class="partners-form-group-input" id="name" type="text" placeholder="ФИО*">
                     <div class="error">Напишите Ваше ФИО</div>
                 </div>
                 <div class="partners-form-group">
-                    <input class="partners-form-group-input" type="text" placeholder="Название компании*">
+                    <input class="partners-form-group-input" id="company" type="text" placeholder="Название компании*">
                     <div class="error">Напишите название Вашей компании</div>
                 </div>
                 <div class="partners-form-group">
-                    <input class="partners-form-group-input" type="text" placeholder="Телефон*">
+                    <input class="partners-form-group-input" id="phone" type="text" placeholder="Телефон*">
                     <div class="error">Напишите Ваш телефон</div>
                 </div>
                 <div class="partners-form-group">
-                    <input class="partners-form-group-input" type="text" placeholder="Электронная почта*">
+                    <input class="partners-form-group-input" id="email" type="email" placeholder="Электронная почта*">
                     <div class="error">Напишите электронную почту</div>
                 </div>
                 <div class="partners-form-group">
-                    <textarea name="" id="" placeholder="Сообщение"></textarea>
+                    <textarea id="message" placeholder="Сообщение"></textarea>
                 </div>
                 <div class="partners-form-button">
-                    <button class="partners-form-button-btn">Отправить</button>
+                    <button id="send-info-about-partner" class="partners-form-button-btn" type="button">Отправить</button>
                 </div>
             </form>
         </div>
@@ -240,5 +240,22 @@
     </div>
 </footer>
 
+<div class="wrapper-done" id="wrapper-done">
+
+    <div class="done">
+        <div class="more-detail-cancel">
+            <svg id="wrapper-done-cancel" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="22.6274" y="7.07104" width="1" height="22" transform="rotate(45 22.6274 7.07104)"
+                      fill="#296945"/>
+                <rect x="7.07104" y="8.48535" width="1" height="22" transform="rotate(-45 7.07104 8.48535)"
+                      fill="#296945"/>
+            </svg>
+        </div>
+        Благодарим за заявку! <br>В течении 20 минут с Вами свяжется наш менеджер.
+    </div>
+</div>
+
+<script type="text/javascript" src="scripts/code.jquery.com_jquery-3.7.1.min.js"></script>
+<script src="partners.js"></script>
 </body>
 </html>
