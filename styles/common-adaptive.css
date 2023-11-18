@@ -14,6 +14,14 @@
 
 }
 
+@media screen and (max-width: 1600px) {
+
+    .banner-man {
+        background-position-x: -235px;
+    }
+
+}
+
 @media screen and (max-width: 1500px) {
 
     .banner-coffee {
@@ -23,6 +31,10 @@
 }
 
 @media screen and (max-width: 1350px) {
+
+    .banner-tea {
+        background-position-x: -254px;
+    }
 
     .more-detail-frame iframe {
         width: 100%;
@@ -45,6 +57,10 @@
 
     .banner-coffee {
         background-position-x: -189px;
+    }
+
+    .banner-man {
+        background-position-x: -412px;
     }
 
 }
@@ -132,6 +148,15 @@
 
 }
 
+@media screen and (max-width: 975px) {
+
+    .banner-tea {
+        background-position-x: -569px;
+        background-image: url("../images/La-and-Te-beaute_banner_tea-more-black.png");
+    }
+
+}
+
 @media screen and (max-width: 912px) {
 
     .collection-items {
@@ -139,6 +164,13 @@
         column-gap: 0;
     }
 
+}
+
+@media screen and (max-width: 867px) {
+    .banner-man {
+        background-position-x: -521px;
+        background-image: url("../images/La-and-Te-beaute_banner_men-more-black.png");
+    }
 }
 
 @media screen and (max-width: 817px) {
@@ -189,6 +221,12 @@
         width: 100%;
     }
 
+}
+
+@media screen and (max-width: 768px) {
+    .banner-man {
+        background-position-x: -700px;
+    }
 }
 
 /*for 500*/
@@ -328,11 +366,23 @@
 
 }
 
+@media screen and (max-width: 621px) {
+
+    .banner-tea {
+        background-position-x: -807px;
+    }
+
+}
+
 @media screen and (max-width: 607px) {
 
     .banner-coffee {
         background-position-x: -768px;
         background-position-y: -17px;
+    }
+
+    .banner-man {
+        background-position-x: -850px;
     }
 
     .main {
@@ -473,6 +523,15 @@
 
 }
 
+@media screen and (max-width: 510px) {
+
+    .banner-tea {
+        background-position-x: -811px;
+    }
+
+}
+
+
 /*425px*/
 @media screen and (max-width: 500px) {
 
@@ -517,6 +576,14 @@
     .footer-description {
         font-size: 14px;
     }
+}
+
+@media screen and (max-width: 485px) {
+
+    .banner-man {
+        background-position-x: -906px;
+    }
+
 }
 
 @media screen and (max-width: 472px) {
@@ -574,6 +641,12 @@
     }
 }
 
+@media screen and (max-width: 425px) {
+    .banner-tea {
+        background-position-x: -902px;
+    }
+}
+
 @media screen and (max-width: 423px) {
     .coffees-item-point-text, .tea-item-point-text, .man-item-point-text {
         width: 290px;
@@ -598,6 +671,13 @@
     }
 }
 
+@media screen and (max-width: 399px) {
+
+    .banner-man {
+        background-position-x: -893px;
+    }
+
+}
 
 @media screen and (max-width: 393px) {
     .main-info-h1 {
