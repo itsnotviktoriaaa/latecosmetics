@@ -133,6 +133,14 @@
 
 }
 
+@media screen and (max-width: 775px) {
+
+    .more-detail {
+        padding: 30px 33px 30px 33px;
+    }
+
+}
+
 @media screen and (max-width: 769px) {
 
     .header-set-img {
@@ -257,6 +265,15 @@
 
     .header-set-title-middle {
         text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 630px) {
+
+    .more-detail {
+        font-size: 14px;
+        padding: 15px 24px 25px 30px;
     }
 
 }
@@ -444,6 +461,12 @@
 
     .footer-description {
         font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 472px) {
+    .more-detail {
+        font-size: 13px;
     }
 }
 
