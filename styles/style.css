@@ -103,17 +103,19 @@
 }
 
 .main {
-    padding-top: 140px;
+    padding-top: 166px;
+    /*padding-top: 140px;*/
     padding-bottom: 88px;
 }
 
 .main-info {
-    max-width: 600px;
+    /*max-width: 600px;*/
     margin-bottom: 150px;
 }
 
 .main-info-h1 {
-    max-width: 600px;
+    /*max-width: 600px;*/
+    text-align: center;
     font-family: 'ForumRegular', sans-serif;
     font-size: 45px;
     line-height: 50px;
@@ -122,12 +124,17 @@
 }
 
 .main-info-description {
-    max-width: 461px;
+    /*max-width: 461px;*/
+    text-align: center;
     font-family: 'ManropeLight', sans-serif;
     font-size: 20px;
     line-height: normal;
     color: #F6F5F1;
     margin-bottom: 70px;
+}
+
+.main-button {
+    text-align: center;
 }
 
 .main-btn {
