@@ -101,6 +101,15 @@ h1, h2, h3, h4 {
     overflow-y: auto;
 }
 
+.more-detail-frame {
+    overflow-y: unset;
+}
+
+.more-detail-frame iframe {
+    width: 851px;
+    height: 368px;
+}
+
 .error {
     display: none;
     margin-top: 6px;
