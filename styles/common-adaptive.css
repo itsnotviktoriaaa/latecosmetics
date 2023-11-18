@@ -14,6 +14,14 @@
 
 }
 
+@media screen and (max-width: 1500px) {
+
+    .banner-coffee {
+        background-position-x: -83px;
+    }
+
+}
+
 @media screen and (max-width: 1350px) {
 
     .more-detail-frame iframe {
@@ -32,6 +40,14 @@
 }
 
 /**/
+
+@media screen and (max-width: 1208px) {
+
+    .banner-coffee {
+        background-position-x: -189px;
+    }
+
+}
 
 @media screen and (max-width: 1200px) {
 
@@ -107,6 +123,15 @@
 
 }
 
+@media screen and (max-width: 990px) {
+
+    .banner-coffee {
+        background-position-x: -439px;
+        background-image: url("../images/La-and-Te-beaute_banner_coffee-more-black.png");
+    }
+
+}
+
 @media screen and (max-width: 912px) {
 
     .collection-items {
@@ -120,6 +145,10 @@
     .main-info-h1 {
         width: unset;
         max-width: 790px;
+    }
+
+    .main-info {
+        margin-bottom: 65px;
     }
 }
 
@@ -258,6 +287,14 @@
 
 }
 
+@media screen and (max-width: 662px) {
+
+    .banner-coffee {
+        background-position-x: -526px;
+    }
+
+}
+
 @media screen and (max-width: 655px) {
 
     .header-set {
@@ -276,6 +313,10 @@
         text-align: center;
     }
 
+    .main-info {
+        margin-bottom: 52px;
+    }
+
 }
 
 @media screen and (max-width: 630px) {
@@ -288,6 +329,11 @@
 }
 
 @media screen and (max-width: 607px) {
+
+    .banner-coffee {
+        background-position-x: -768px;
+        background-position-y: -17px;
+    }
 
     .main {
         padding-top: 95px;
@@ -545,6 +591,10 @@
 
     .header-set {
         height: 124px;
+    }
+
+    .banner-coffee {
+        background-position-y: -9px;
     }
 }
 
