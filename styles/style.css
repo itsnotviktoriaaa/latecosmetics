@@ -1,5 +1,6 @@
-.banner-tea {
+.banner-main {
     background-image: url("../images/example.png");
+    background-position: center;
 }
 
 .header-sets {
