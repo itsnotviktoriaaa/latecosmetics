@@ -108,15 +108,6 @@ $(document).ready(function () {
         $('#lt3r-middle').css('display', 'none');
     });
 
-    //
-    $('#lt13-video-item').click(function () {
-        $('#lt13-video').css('display', 'flex');
-    });
-
-    $('#lt13-video-cancel').click(function () {
-        $('#lt13-video').css('display', 'none');
-    });
-
     document.getElementById('coffee-btn-to-coffees').onclick = function () {
         document.getElementById('coffees').scrollIntoView({behavior: "smooth"});
     }

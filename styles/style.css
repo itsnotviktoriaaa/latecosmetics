@@ -572,13 +572,6 @@
     font-size: 16px;
     line-height: 155%;
     color: #FFFFFF;
-    margin-bottom: 30px;
-}
-
-.shop-live-items {
-    display: flex;
-    column-gap: 8px;
-    align-items: center;
 }
 
 .shop-live-item-text, .shop-live-item-text a {

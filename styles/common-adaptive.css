@@ -509,18 +509,6 @@
         margin-top: 40px;
     }
 
-    .look-video {
-        justify-content: center;
-    }
-
-    .look-video-text a {
-        font-size: 16px;
-    }
-
-    .look-video-arrow {
-        width: 18px;
-    }
-
 }
 
 @media screen and (max-width: 510px) {
@@ -744,14 +732,6 @@
     .main-info-description {
         font-size: 17px;
         line-height: normal;
-    }
-
-}
-
-@media screen and (max-width: 341px) {
-
-    .look-video-text a {
-        font-size: 14px;
     }
 
 }
