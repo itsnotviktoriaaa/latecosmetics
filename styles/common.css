@@ -54,6 +54,10 @@ body {
     margin: 0 auto;
 }
 
+.logo {
+    width: 49px;
+}
+
 .text-bold {
     font-family: "ManropeBold", sans-serif;
 }
