@@ -1,4 +1,18 @@
+document.getElementsByTagName('body')[0].style.overflow = 'hidden';
+
 $(document).ready(function () {
+
+    const loader = $('#loader');
+    const content = $('#content');
+
+    $(window).on('load', function() {
+        loader.hide();
+        content.show();
+        document.getElementsByTagName('body')[0].style.overflow = 'auto';
+        document.getElementById('main-text').classList.add('text-block');
+        document.getElementById('main-product').classList.add('image-block');
+        new WOW().init();
+    });
 
     $('.multiple-items').slick({
         dots: true,

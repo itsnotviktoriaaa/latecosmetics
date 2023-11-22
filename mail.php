@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
 
     //Первый параметр - кому отправляем письмо, второй - тема письма, третий - содержание
-    $success = mail("admin@late.com", 'Заявка прайслиста', $content);
+    $success = mail("admin@latebeaute.com", 'Заявка прайслиста', $content);
 
     if ($success) {
         // Отдаём 200 код ответа на http запрос

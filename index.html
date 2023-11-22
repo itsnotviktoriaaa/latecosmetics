@@ -89,15 +89,21 @@
 
     <main class="main">
         <div class="container">
-            <div class="main-info">
-                <h1 class="main-info-h1">Подарочные наборы косметики по доступной цене <br> в люксовой упаковке</h1>
-                <div class="main-info-description">
-                    Мы используем новейшие технологии и активы ведущих мировых сырьевых производителей
+            <div class="main-items">
+                <div id="main-text" class="main-info">
+                    <h1 class="main-info-h1">Подарочные наборы косметики по доступной цене <br> в люксовой упаковке</h1>
+                    <div class="main-info-description">
+                        Мы используем новейшие технологии и активы ведущих мировых сырьевых производителей
+                    </div>
+                    <div class="main-button">
+                        <button id="main-btn-to-collection" class="main-btn main-btn-green">К подарочным наборам</button>
+                    </div>
                 </div>
-                <div class="main-button">
-                    <button id="main-btn-to-collection" class="main-btn main-btn-green">К подарочным наборам</button>
+                <div id="main-product" class="main-product">
+                    <img src="images/main-product.png" alt="">
                 </div>
             </div>
+
             <div class="main-contact-instagram">
                 <a href="https://www.instagram.com/late_beaute/" target="_blank">instagram</a>
             </div>
@@ -203,7 +209,7 @@
             </div>
         </div>
         <div class="trust-certificate-items">
-            <div class="trust-certificate-items-left wow animate__backInLeft">
+            <div class="trust-certificate-items-left">
                 <div class="trust-certificate-item-left-text">
                     Вся наша продукция сертифицирована и соответствует стандартам ГОСТа. Товары производятся в
                     Республике Беларусь, а сырье для нашей косметики мы закупаем во Франции.
@@ -223,7 +229,7 @@
                     </div>
                 </div>
             </div>
-            <div class="trust-certificate-items-right wow animate__backInRight">
+            <div class="trust-certificate-items-right">
                 <div class="trust-certificate-item-advantages">
                     <div class="trust-certificate-item-advantage">
                         <div class="trust-certificate-item-advantage-image">
@@ -360,7 +366,7 @@
 <section id="shop" class="shop">
     <div class="container">
         <div class="top-title top-title-white shop-top-title">ОФФЛАЙН И ОНЛАЙН ПОКУПКА</div>
-        <div class="shop-item-title shop-item-title-right wow animate__fadeInLeftBig">Как купить:</div>
+        <div class="shop-item-title shop-item-title-right">Как купить:</div>
         <div class="shop-text shop-text-without-width">
             - Оформить заказ самостоятельно в нашем интернет-магазине; <br>
             - Оформить заказ в инстаграм; <br>
@@ -369,7 +375,7 @@
         </div>
         <div class="shop-items">
             <div class="shop-item-left">
-                <div class="shop-item-title shop-item-title-left wow animate__fadeInLeftBig">Оффлайн-магазин:</div>
+                <div class="shop-item-title shop-item-title-left">Оффлайн-магазин:</div>
                 <div class="shop-item-description">
                     г. Минск, <span class="text-bold">ТЦ Green City</span>, <br>ул. Притыцкого, 156, <span
                         class="text-bold">1 этаж</span> (островок)
@@ -383,7 +389,7 @@
                 </div>
             </div>
             <div class="shop-item-right">
-                <div class="shop-item-title shop-item-title-right wow animate__fadeInRightBig">Онлайн-магазин:</div>
+                <div class="shop-item-title shop-item-title-right">Онлайн-магазин:</div>
                 <div class="switch-to-online-shop-button">
                     <a href="https://ltbeauty.by" target="_blank" class="wow animate__pulse">
                         <button class="switch-to-online-shop-btn switch-to-online-shop-btn-white">ПЕРЕЙТИ В
@@ -531,11 +537,9 @@
         © 2023 ltbeauty.by Все права защищены
     </div>
 </footer>
+<div class="loader" id="loader"></div>
 
 <script src="scripts/wow.min.js"></script>
-<script>
-    new WOW().init();
-</script>
 <script type="text/javascript" src="scripts/code.jquery.com_jquery-3.7.1.min.js"></script>
 <script type="text/javascript" src="scripts/jquery-migrate-1.2.1.js"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script>
