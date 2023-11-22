@@ -464,3 +464,7 @@
 .switch-to-main-page-btn:hover {
     background: #056655;
 }
+
+.main-product {
+    display: none;
+}
