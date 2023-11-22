@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = $_POST['message'];
 
     //создаём переменную с содержанием письма
-    $content = $name . ' оставил(а) заявку на прайслист. Его(её) телефон: ' . $phone . '. Компания: ' . $company . '. Email: ' . $email . 'Сообщение: ' . $message;
+    $content = $name . ' оставил(а) заявку на прайслист. Его(её) телефон: ' . $phone . '. Компания: ' . $company . '. Email: ' . $email . '. Сообщение: ' . $message;
 
     $headers = 'MIME-Version: 1.0' . "\r\n";
     $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
