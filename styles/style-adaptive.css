@@ -165,10 +165,6 @@
         column-gap: 0;
     }
 
-    .banner-main {
-        background-position: calc(50% + 21px) center;
-    }
-
 }
 
 /*for 768*/

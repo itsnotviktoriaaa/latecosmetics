@@ -1,6 +1,5 @@
 .banner-main {
-    background-image: url("../images/example.png");
-    background-position: center;
+    background-image: url("../images/examplee.png");
 }
 
 .header-sets {
@@ -104,17 +103,17 @@
 }
 
 .main {
-    padding-top: 174px;
-    padding-bottom: 43px;
+    padding-top: 140px;
+    padding-bottom: 88px;
 }
 
 .main-info {
-    margin-bottom: 98px;
+    max-width: 600px;
+    margin-bottom: 150px;
 }
 
 .main-info-h1 {
-    /*max-width: 600px;*/
-    text-align: center;
+    max-width: 600px;
     font-family: 'ForumRegular', sans-serif;
     font-size: 45px;
     line-height: 50px;
@@ -123,17 +122,12 @@
 }
 
 .main-info-description {
-    /*max-width: 461px;*/
-    text-align: center;
+    max-width: 461px;
     font-family: 'ManropeLight', sans-serif;
     font-size: 20px;
     line-height: normal;
     color: #F6F5F1;
     margin-bottom: 70px;
-}
-
-.main-button {
-    text-align: center;
 }
 
 .main-btn {

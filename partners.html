@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/animate.css">
+    <link rel="stylesheet" href="styles/animate.min.css">
     <link rel="stylesheet" href="styles/common.css">
     <link rel="stylesheet" href="styles/collection.css">
     <link rel="stylesheet" href="styles/footer.css">
@@ -16,7 +18,7 @@
 <header class="header">
     <div class="container">
         <div class="header-sets">
-            <a href="coffee.html">
+            <a href="coffee.html" class="wow animate__slideInDown">
                 <div class="header-set header-set-coffee">
                     <div class="header-set-img">
                         <img class="logo" src="images/logo-white.png" alt="Логотип">
@@ -29,7 +31,7 @@
                     </div>
                 </div>
             </a>
-            <a href="tea.html">
+            <a href="tea.html" class="wow animate__slideInDown">
                 <div class="header-set header-set-tea">
                     <div class="header-set-img">
                         <img class="logo" src="images/logo-white.png" alt="Логотип">
@@ -42,7 +44,7 @@
                     </div>
                 </div>
             </a>
-            <a href="man.html">
+            <a href="man.html" class="wow animate__slideInDown">
                 <div class="header-set header-set-man">
                     <div class="header-set-img">
                         <img class="logo" src="images/logo-white.png" alt="Логотип">
@@ -95,8 +97,8 @@
 
         <div class="partners-welcome-common">
             <h4 class="partners-welcome partners-welcome-first">Добро</h4>
-            <div class="partners-welcome-image">
-                <img src="images/welcome.png">
+            <div class="partners-welcome-image wow animate__zoomInUp">
+                <img src="images/welcome.png" alt="">
             </div>
             <h4 class="partners-welcome partners-welcome-second">Пожаловать</h4>
         </div>
@@ -104,11 +106,11 @@
         <div class="partners-welcome-common partners-welcome-common-middle">
             <h4 class="partners-welcome partners-welcome-first">Добро</h4>
             <h4 class="partners-welcome partners-welcome-second">Пожаловать</h4>
-            <div class="partners-welcome-image">
-                <img src="images/welcome.png">
+            <div class="partners-welcome-image wow animate__pulse">
+                <img src="images/welcome.png" alt="">
             </div>
         </div>
-        <h4 class="get-price">Получить прайслист</h4>
+        <h4 class="get-price wow animate__fadeInLeft">Получить прайслист</h4>
         <h4 class="condition">Условия сотрудничества</h4>
         <div class="condition-description">
             La&Te Beaute открыто для сотрудничества с торговыми сетями, оптовыми покупателями косметической продукции на
@@ -130,7 +132,7 @@
             <br>
             - информационное обеспечение и маркетинговая поддержка.
         </div>
-        <div class="partners-action">
+        <div class="partners-action wow animate__pulse">
             <div class="manager">
                 Заполните необходимые данные о Вашей компании в форме. Мы обязательно свяжемся с Вами в течении 20 минут
             </div>
@@ -211,17 +213,17 @@
                     </div>
                 </div>
                 <div class="social-sites">
-                    <div class="social-site">
+                    <div class="social-site wow animate__zoomIn">
                         <a href="https://www.instagram.com/late_beaute/" target="_blank">
                             <img src="images/insm-icon.png" alt="Инстаграм">
                         </a>
                     </div>
-                    <div class="social-site">
+                    <div class="social-site wow animate__zoomIn">
                         <a href="https://t.me/late_beaute" target="_blank">
                             <img src="images/telegram-icon.png" alt="Телеграм">
                         </a>
                     </div>
-                    <div class="social-site">
+                    <div class="social-site wow animate__zoomIn">
                         <a href="https://www.tiktok.com/@late_beaute" target="_blank">
                             <img src="images/tiktok-icon.png" alt="Тикток">
                         </a>
@@ -250,6 +252,10 @@
     </div>
 </div>
 
+<script src="scripts/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
 <script type="text/javascript" src="scripts/code.jquery.com_jquery-3.7.1.min.js"></script>
 <script src="partners.js"></script>
 </body>
