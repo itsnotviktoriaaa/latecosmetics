@@ -360,3 +360,7 @@ body {
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
 }
+
+.image-size {
+    width: 49px;
+}
