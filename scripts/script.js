@@ -1,4 +1,26 @@
+const loader = $('#loader');
 document.getElementsByTagName('body')[0].style.overflow = 'hidden';
+
+//
+let mediaQuery = window.matchMedia("(max-width: 882px)");
+
+function handleScreenSizeChange(mediaQuery) {
+    if (mediaQuery.matches) {
+        loader.hide();
+        document.getElementsByTagName('body')[0].style.overflow = 'auto';
+        document.getElementById('main-text').classList.add('text-block');
+        document.getElementById('main-product').classList.add('image-block');
+        console.log("Экран меньше 1237px");
+    } else {
+        loader.show();
+        console.log("Экран больше 1237px");
+    }
+}
+
+handleScreenSizeChange(mediaQuery);
+mediaQuery.addListener(handleScreenSizeChange);
+
+//
 
 $(document).ready(function () {
 
@@ -19,10 +41,9 @@ $(document).ready(function () {
         sessionStorage.setItem('loadedCoffeePageYet', 'seen');
     }
 
-    const loader = $('#loader');
     const content = $('#content');
 
-    $(window).on('load', function() {
+    $(window).on('load', function () {
         loader.hide();
         content.show();
         document.getElementsByTagName('body')[0].style.overflow = 'auto';
@@ -76,7 +97,7 @@ $(document).ready(function () {
 
     let arrowTop = document.getElementById("arrow-top");
 
-    window.onscroll = function() {
+    window.onscroll = function () {
         showScrollBtn();
     };
 
