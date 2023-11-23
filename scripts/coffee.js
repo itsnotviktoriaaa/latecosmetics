@@ -8,7 +8,6 @@ $(document).ready(function () {
         headerSetsCoffee.addClass('beforeunload-action');
         headerSetsTea.addClass('beforeunload-action');
         headerSetsMan.addClass('beforeunload-action');
-        console.log(1);
     }
 
     let loaded = sessionStorage.getItem('loadedCoffeePageYet');

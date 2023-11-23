@@ -10,10 +10,8 @@ function handleScreenSizeChange(mediaQuery) {
         document.getElementsByTagName('body')[0].style.overflow = 'auto';
         document.getElementById('main-text').classList.add('text-block');
         document.getElementById('main-product').classList.add('image-block');
-        console.log("Экран меньше 1237px");
     } else {
         loader.show();
-        console.log("Экран больше 1237px");
     }
 }
 
@@ -31,7 +29,6 @@ $(document).ready(function () {
         headerSetsCoffee.addClass('beforeunload-action');
         headerSetsTea.addClass('beforeunload-action');
         headerSetsMan.addClass('beforeunload-action');
-        console.log(1);
     }
 
     let loaded = sessionStorage.getItem('loadedCoffeePageYet');
