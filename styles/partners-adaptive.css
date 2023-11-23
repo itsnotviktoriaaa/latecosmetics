@@ -50,6 +50,12 @@
 
 }
 
+@media screen and (max-width: 932px) {
+    .header-set-title {
+        font-size: 12px;
+    }
+}
+
 @media screen and (max-width: 826px) {
     .partners-welcome-common {
         display: none;
@@ -91,7 +97,7 @@
 @media screen and (max-width: 769px) {
 
     .header-set-img {
-        width: 30px;
+        width: 45px;
     }
 
     .header-set-img img {
@@ -123,7 +129,20 @@
     }
 
     .main-contact-instagram-middle {
-        display: block;
+        margin-top: 130px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .partners {
+        padding-top: 75px;
+    }
+
+}
+
+@media screen and (max-width: 675px) and (min-width: 655px) {
+    .header-set-title {
+        font-size: 11px;
     }
 }
 
@@ -137,8 +156,13 @@
         padding-bottom: 5px;
     }
 
+    .header-set-man .header-set-img {
+        height: 21.33px;
+    }
+
     .header-set-img {
         margin-right: 0;
+        width: 31px;
     }
 
     .header-set-title-middle {
@@ -198,6 +222,10 @@
 
 @media screen and (max-width: 596px) {
 
+    .header-set-title {
+        font-size: 11px;
+    }
+
     .header-menu-nav {
         justify-content: center;
     }
@@ -243,10 +271,6 @@
         padding: 0 3px;
     }
 
-    .header-set-img {
-        width: 16px;
-    }
-
 }
 
 /*425px*/
@@ -274,6 +298,12 @@
 
     .footer-rights {
         padding-top: 35px;
+    }
+}
+
+@media screen and (max-width: 454px) {
+    .header-set-title {
+        font-size: 9px;
     }
 }
 
@@ -307,12 +337,20 @@
         text-align: center;
         border-bottom: 0;
     }
+
+    .header-set-title {
+        font-size: 9px;
+    }
 }
 
 @media screen and (max-width: 403px) {
 
     .header-set {
-        height: 124px;
+        height: 53px;
+    }
+
+    .header-set-title {
+        font-size: 9px;
     }
 }
 
@@ -341,5 +379,11 @@
 
     .partners-form-h5 {
         font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .header-set-title {
+        font-size: 7px;
     }
 }

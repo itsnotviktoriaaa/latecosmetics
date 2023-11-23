@@ -157,13 +157,10 @@
 
 }
 
-@media screen and (max-width: 912px) {
-
-    .collection-items {
-        justify-content: space-between;
-        column-gap: 0;
+@media screen and (max-width: 932px) {
+    .header-set-title {
+        font-size: 12px;
     }
-
 }
 
 @media screen and (max-width: 867px) {
@@ -184,8 +181,16 @@
         padding-top: 62px;
     }
 
+    .main-tea, .main-coffee, .main-man {
+        padding-top: 159px;
+    }
+
     .banner-coffee, .banner-tea, .banner-man {
         background-size: cover;
+    }
+
+    .banner-coffee {
+        background-image: url("../images/La-and-Te-beaute_banner_coffee-without-product.png");
     }
 
     .banner-tea {
@@ -233,23 +238,6 @@
 
 /*for 768*/
 
-@media screen and (max-width: 815px) {
-
-    .collection-items {
-        column-gap: 0;
-        justify-content: space-between;
-    }
-
-    .collection-item-right {
-        width: 310px;
-    }
-
-    .collection-item-small {
-        width: 312px;
-    }
-
-}
-
 @media screen and (max-width: 775px) {
 
     .more-detail {
@@ -260,10 +248,6 @@
 
 @media screen and (max-width: 769px) {
 
-    .header-set-img {
-        width: 30px;
-    }
-
     .header-set-img img {
         width: 100%;
     }
@@ -271,22 +255,6 @@
 }
 
 /*for 500*/
-@media screen and (max-width: 720px) {
-
-    .collection-items {
-        column-gap: 0;
-        justify-content: space-between;
-    }
-
-    .collection-item-right {
-        width: 310px;
-    }
-
-    .collection-item-small {
-        width: 312px;
-    }
-}
-
 
 @media screen and (max-width: 700px) {
     .main-info-description {
@@ -297,33 +265,6 @@
 
 
 @media screen and (max-width: 693px) {
-
-    .collection-wrapper {
-        flex-direction: column;
-    }
-
-    .collection-h2 {
-        margin: 55px 0 70px auto;
-        text-align: left;
-    }
-
-    .collection-items {
-        flex-direction: column;
-        row-gap: 30px;
-    }
-
-    .collection-item-right {
-        height: 312px;
-        width: 312px;
-    }
-
-    .collection-item-text-coffee {
-        top: calc(50% - 42px);
-        left: calc(50% - 148px);
-        text-align: center;
-        bottom: unset;
-        right: unset;
-    }
 
     .footer-items {
         row-gap: 35px;
@@ -346,7 +287,8 @@
     }
 
     .main-contact-instagram-bottom {
-        display: block;
+        display: flex;
+        justify-content: flex-end;
     }
 
 }
@@ -378,6 +320,7 @@
 
     .header-set-img {
         margin-right: 0;
+        width: 31px;
     }
 
     .header-set-title-middle {
@@ -386,6 +329,22 @@
 
     .main-info {
         margin-bottom: 52px;
+    }
+
+    .header-set-man .header-set-img {
+        height: 21.33px;
+    }
+
+    .header-set-man .header-set-img img {
+        height: 100%;
+    }
+
+    .header-set-man.header-set-man-back .header-set-img {
+        height: unset;
+    }
+
+    .header-set-man.header-set-man-back .header-set-img img {
+        height: unset;
     }
 
 }
@@ -414,7 +373,7 @@
     }
 
     .main {
-        padding-top: 48px;
+        padding-top: 200px;
     }
 
     .main-info {
@@ -422,7 +381,7 @@
     }
 
     .main-info-h1 {
-        font-size: 32px;
+        font-size: 31px;
         line-height: 37px;
     }
 
@@ -447,19 +406,16 @@
         margin: 0 0 50px auto;
     }
 
-    .collection {
-        padding-top: 95px;
-        padding-bottom: 100px;
-    }
-
-    .collection-item-text {
-        font-size: 24px;
-    }
-
     .footer-description {
         font-size: 15px;
     }
 
+}
+
+@media screen and (max-width: 596px) {
+    .header-set-title {
+        font-size: 11px;
+    }
 }
 
 @media screen and (max-width: 589px) {
@@ -491,10 +447,6 @@
 
     .header-set {
         padding: 0 3px;
-    }
-
-    .header-set-img {
-        width: 16px;
     }
 
 }
@@ -595,6 +547,18 @@
     }
 }
 
+@media screen and (max-width: 457px) {
+    .main-info-h1 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 454px) {
+    .header-set-title {
+        font-size: 9px;
+    }
+}
+
 @media screen and (max-width: 453px) {
     .shop-live-item-text, .shop-live-item-text a {
         font-size: 13px;
@@ -637,10 +601,6 @@
         font-size: 20px;
     }
 
-    .collection-h2 {
-        margin: 55px 0 55px auto;
-    }
-
     .footer-item-right-transfer-text, .footer-item-right-transfer-text a {
         font-size: 16px;
     }
@@ -667,12 +627,13 @@
         text-align: center;
         border-bottom: 0;
     }
-}
-
-@media screen and (max-width: 403px) {
 
     .header-set {
-        height: 124px;
+        height: 53px;
+    }
+
+    .header-set-title {
+        font-size: 9px;
     }
 }
 
@@ -711,19 +672,16 @@
     }
 }
 
+@media screen and (max-width: 375px) {
+    .header-set-title {
+        font-size: 7px;
+    }
+}
+
 @media screen and (max-width: 355px) {
 
     .banner-coffee {
         background-position-x: -811px;
-    }
-
-    .collection-item-small, .collection-item-right {
-        width: 285px;
-    }
-
-    .collection-item-right {
-        background-position-y: -53px;
-        background-position-x: -27px;
     }
 
 }
@@ -753,6 +711,10 @@
     .main-info-description {
         font-size: 17px;
         line-height: normal;
+    }
+
+    .banner-coffee {
+        background-position-x: -781px;
     }
 
 }

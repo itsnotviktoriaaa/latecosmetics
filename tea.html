@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="styles/animate.css">
     <link rel="stylesheet" href="styles/animate.min.css">
     <link rel="stylesheet" href="styles/common.css">
-    <link rel="stylesheet" href="styles/collection.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/tea.css">
     <link rel="stylesheet" href="styles/common-adaptive.css">
@@ -20,42 +19,42 @@
     <header class="header">
         <div class="container">
             <div class="header-sets">
-                <a href="coffee.html" class="wow animate__slideInDown">
+                <a id="header-sets-coffee" href="coffee.html" class="wow animate__slideInDown">
                     <div class="header-set header-set-coffee">
                         <div class="header-set-img">
-                            <img class="logo" src="images/logo-white.png" alt="Логотип">
+                            <img class="logo" src="images/icon-coffee_white-color.svg" alt="Логотип">
                         </div>
                         <div class="header-set-title">
-                            Подарочные наборы женской косметики с экстрактом кофе и кокоса
+                            Экстракт кофе и кокоса
                         </div>
                         <div class="header-set-title header-set-title-middle">
-                            Косметика с экстрактом кофе и кокоса
+                            Экстракт кофе и кокоса
                         </div>
                     </div>
                 </a>
-                <a class="wow animate__slideInDown">
-                    <div class="header-set header-set-tea" style="cursor: default">
+                <a id="header-sets-tea" href="index.html" class="wow animate__slideInDown active-shadow">
+                    <div class="header-set header-set-tea">
                         <div class="header-set-img">
                             <img class="logo" src="images/logo-white.png" alt="Логотип">
                         </div>
                         <div class="header-set-title">
-                            Подарочные наборы женской косметики с зеленым чаем и алоэ
+                            Вернуться на главную
                         </div>
                         <div class="header-set-title header-set-title-middle">
-                            Косметика с зеленым чаем и алоэ
+                            Вернуться на главную
                         </div>
                     </div>
                 </a>
-                <a href="man.html" class="wow animate__slideInDown">
+                <a id="header-sets-man" href="man.html" class="wow animate__slideInDown">
                     <div class="header-set header-set-man">
                         <div class="header-set-img">
-                            <img class="logo" src="images/logo-white.png" alt="Логотип">
+                            <img class="logo" src="images/icon-men_white-color.svg" alt="Логотип">
                         </div>
                         <div class="header-set-title">
-                            Подарочные наборы мужской косметики с древесным запахом
+                            Мужская косметика
                         </div>
                         <div class="header-set-title header-set-title-middle">
-                            Косметика с древесным запахом
+                            Мужская косметика
                         </div>
                     </div>
                 </a>
@@ -84,14 +83,18 @@
                         </ul>
                     </div>
                     <div class="main-contact-instagram main-contact-instagram-top">
-                        <a href="https://www.instagram.com/late_beaute/" target="_blank">instagram</a>
+                        <div class="social-site">
+                            <a href="https://www.instagram.com/late_beaute/" target="_blank">
+                                <img src="images/insm-icon.png" alt="Инстаграм">
+                            </a>
+                        </div>
                     </div>
                 </nav>
             </div>
         </div>
     </header>
 
-    <main class="main">
+    <main class="main main-tea">
         <div class="container">
             <div class="main-items">
                 <div class="main-info">
@@ -113,7 +116,11 @@
                 </div>
             </div>
             <div class="main-contact-instagram main-contact-instagram-bottom">
-                <a href="https://www.instagram.com/late_beaute/" target="_blank">instagram</a>
+                <div class="social-site">
+                    <a href="https://www.instagram.com/late_beaute/" target="_blank">
+                        <img src="images/insm-icon.png" alt="Инстаграм">
+                    </a>
+                </div>
             </div>
         </div>
     </main>
@@ -126,7 +133,7 @@
         <div class="tea-items">
             <div class="tea-item wow animate__pulse">
                 <h4 class="tea-item-title">Набор косметики "Уход за лицом"</h4>
-                <div class="tea-item-image">
+                <div id="lt46-image" class="tea-item-image">
                     <img src="images/catalog-without-background/tea/LT-46.png" alt="Набор косметики">
                 </div>
                 <div class="tea-item-points">
@@ -168,7 +175,7 @@
             </div>
             <div class="tea-item wow animate__pulse">
                 <h4 class="tea-item-title">Набор косметики "Уход за лицом"</h4>
-                <div class="tea-item-image">
+                <div id="lt5gr-image" class="tea-item-image">
                     <img src="images/catalog-without-background/tea/LT-5%20GR.png" alt="Набор косметики">
                 </div>
                 <div class="tea-item-points">
@@ -256,14 +263,14 @@
                     </div>
                 </div>
                 <div class="tea-item-big-right">
-                    <div class="tea-item-image">
+                    <div id="lt3gr-image" class="tea-item-image">
                         <img src="images/catalog-without-background/tea/LT-3%20GR.png" alt="Набор косметики">
                     </div>
                 </div>
             </div>
             <div class="tea-item tea-item-big-middle wow animate__pulse">
                 <h4 class="tea-item-title">Набор косметики "Уход за лицом"</h4>
-                <div class="tea-item-image">
+                <div id="lt3gr-image-middle" class="tea-item-image">
                     <img src="images/catalog-without-background/tea/LT-40.png" alt="Набор косметики">
                 </div>
                 <div class="tea-item-points">
@@ -308,7 +315,7 @@
             </div>
             <div class="tea-item wow animate__pulse">
                 <h4 class="tea-item-title">Набор косметики "Уход за телом"</h4>
-                <div class="tea-item-image">
+                <div id="lt40-image" class="tea-item-image">
                     <img src="images/catalog-without-background/tea/LT-40.png" alt="Набор косметики">
                 </div>
                 <div class="tea-item-points">
@@ -346,7 +353,7 @@
             </div>
             <div class="tea-item wow animate__pulse">
                 <h4 class="tea-item-title">Набор косметики "Уход за лицом"</h4>
-                <div class="tea-item-image">
+                <div id="lt48-image" class="tea-item-image">
                     <img src="images/catalog-without-background/tea/LT-48.png" alt="Набор косметики">
                 </div>
                 <div class="tea-item-points">
@@ -384,7 +391,7 @@
             </div>
             <div class="tea-item wow animate__pulse">
                 <h4 class="tea-item-title">Набор косметики</h4>
-                <div class="tea-item-image">
+                <div id="lt1gr-image" class="tea-item-image">
                     <img src="images/catalog-without-background/tea/LT-1%20GR.png" alt="Набор косметики">
                 </div>
                 <div class="tea-item-points">
@@ -432,7 +439,7 @@
             </div>
             <div class="tea-item wow animate__pulse">
                 <h4 class="tea-item-title">Набор косметики "Уход за волосами"</h4>
-                <div class="tea-item-image">
+                <div id="lt2gr-image" class="tea-item-image">
                     <img src="images/catalog-without-background/tea/LT-2%20GR.png" alt="Набор косметики">
                 </div>
                 <div class="tea-item-points">
@@ -522,14 +529,14 @@
                     </div>
                 </div>
                 <div class="tea-item-big-right">
-                    <div class="tea-item-image">
+                    <div id="lt4gr-image" class="tea-item-image">
                         <img src="images/catalog-without-background/tea/LT-4%20GR.png" alt="Набор косметики">
                     </div>
                 </div>
             </div>
             <div class="tea-item tea-item-big-middle wow animate__pulse">
                 <h4 class="tea-item-title">Набор косметики "Уход за телом"</h4>
-                <div class="tea-item-image">
+                <div id="lt4gr-image-middle" class="tea-item-image">
                     <img src="images/catalog-without-background/tea/LT-4%20GR.png" alt="Набор косметики">
                 </div>
                 <div class="tea-item-points">
@@ -580,7 +587,7 @@
             </div>
             <div class="tea-item wow animate__pulse">
                 <h4 class="tea-item-title">Набор для лица</h4>
-                <div class="tea-item-image">
+                <div id="ltms2-image" class="tea-item-image">
                     <img src="images/catalog-without-background/tea/LT-MS2.png" alt="Набор косметики">
                 </div>
                 <div class="tea-item-points">
@@ -617,7 +624,7 @@
             </div>
             <div class="tea-item wow animate__pulse">
                 <h4 class="tea-item-title">Набор с термосумкой</h4>
-                <div class="tea-item-image">
+                <div id="lt25Bag-image" class="tea-item-image">
                     <img src="images/catalog-without-background/tea/LT-25Bag.png" alt="Набор косметики">
                 </div>
                 <div class="tea-item-points">
@@ -668,46 +675,6 @@
                     <button class="switch-to-main-page-btn">ВЕРНУТЬСЯ НА ГЛАВНУЮ</button>
                 </a>
             </div>
-        </div>
-    </div>
-</section>
-
-<section class="collection">
-    <div class="container">
-        <div class="collection-wrapper">
-            <div class="collection-loves">
-                <div class="top-title top-title-black collection-title">НАШИ КОЛЛЕКЦИИ</div>
-                <div class="collection-love">
-                    <img src="images/love.png" alt="Любовь">
-                </div>
-            </div>
-            <h2 class="common-h2 collection-h2">Нажмите на понравившуюся Вам коллекцию подарочной косметики для
-                просмотра каталога</h2>
-        </div>
-        <div class="collection-items">
-            <div class="collection-item-left">
-                <a href="#">
-                    <div class="collection-item-small collection-item-small-tea">
-                        <div class="collection-overlay collection-tea-img-overlay"></div>
-                        <h3 class="collection-item-text collection-item-text-tea">Подарочные наборы женской косметики c
-                            зеленым чаем и алоэ</h3>
-                    </div>
-                </a>
-                <a href="man.html">
-                    <div class="collection-item-small collection-item-small-man">
-                        <div class="collection-overlay collection-man-img-overlay"></div>
-                        <h3 class="collection-item-text collection-item-text-man">Подарочные наборы мужской косметики c
-                            древесным запахом</h3>
-                    </div>
-                </a>
-            </div>
-            <a href="coffee.html">
-                <div class="collection-item-right">
-                    <div class="collection-overlay collection-coffee-img-overlay"></div>
-                    <h3 class="collection-item-text collection-item-text-coffee">Подарочные наборы женской косметики с
-                        экстрактом кофе и кокоса</h3>
-                </div>
-            </a>
         </div>
     </div>
 </section>
@@ -781,6 +748,12 @@
         © 2023 ltbeauty.by Все права защищены
     </div>
 </footer>
+
+<div id="arrow-top" class="arrow-top">
+    <svg width="19" height="25" viewBox="0 0 19 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M9.41358 1V24.5M9.41358 1L1 11.7346M9.41358 1L17.8272 11.7346" stroke="#1F1F1F" stroke-width="0.580247"/>
+    </svg>
+</div>
 
 <div id="lt46" class="more-detail-wrapper">
     <div class="more-detail">

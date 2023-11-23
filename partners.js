@@ -1,5 +1,22 @@
 $(document).ready(function () {
 
+   let reloaded = function () {
+      let headerSetsCoffee = $('#header-sets-coffee');
+      let headerSetsTea = $('#header-sets-tea');
+      let headerSetsMan = $('#header-sets-man');
+      headerSetsCoffee.addClass('beforeunload-action');
+      headerSetsTea.addClass('beforeunload-action');
+      headerSetsMan.addClass('beforeunload-action');
+      console.log(1);
+   }
+
+   let loaded = sessionStorage.getItem('loadedCoffeePageYet');
+   if (loaded) {
+      reloaded();
+   } else {
+      sessionStorage.setItem('loadedCoffeePageYet', 'seen');
+   }
+
    let name = document.getElementById('name');
    let company = document.getElementById('company');
    let phone = document.getElementById('phone');
@@ -91,5 +108,31 @@ $(document).ready(function () {
    wrapperDoneCancel.click(() => {
       wrapperDone.css('display', 'none');
    });
+
+   //
+
+   let arrowTop = document.getElementById("arrow-top");
+
+   window.onscroll = function() {
+      showScrollBtn();
+   };
+
+   function showScrollBtn() {
+
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+         arrowTop.style.display = "flex";
+      } else {
+         arrowTop.style.display = "none";
+      }
+   }
+
+   arrowTop.onclick = function () {
+      scrollToTop();
+   }
+
+   function scrollToTop() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+   }
 
 });

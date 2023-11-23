@@ -3,6 +3,11 @@
 }
 
 .header-sets {
+    z-index: 9999999999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -11,16 +16,17 @@
 
 .header-sets a {
     text-decoration: none;
-    width: 33%;
+    width: 50%;
 }
 
 .header-set {
     display: flex;
     align-items: center;
     cursor: pointer;
-    height: 62px;
+    height: 53px;
     justify-content: center;
     box-shadow: 0 5px 20px rgba(21, 21, 21, 0.2);
+    padding: 10px;
 }
 
 .header-set-coffee {
@@ -56,8 +62,8 @@
 }
 
 .header-set-title {
-    font-family: "ManropeExtraLight", sans-serif;
-    font-size: 12px;
+    font-family: "StolzlRegular", sans-serif;
+    font-size: 16px;
     line-height: 16px;
     color: #FFFFFF;
     max-width: 243px;
@@ -65,6 +71,11 @@
 
 .header-set-title-middle {
     display: none;
+}
+
+.header-menu {
+    position: relative;
+    top: 98px;
 }
 
 .header-menu-nav {
@@ -92,7 +103,6 @@
 
 .header-menu-nav ul li:first-child {
     margin-right: 60px;
-    margin-left: 52px;
     position: relative;
     top: 4px;
 }
@@ -106,7 +116,7 @@
 }
 
 .main {
-    padding-top: 140px;
+    padding-top: 267px;
     padding-bottom: 88px;
 }
 
@@ -172,10 +182,10 @@
     border: 1px solid #077D68;
     border-radius: 20px;
     font-family: 'ManropeBold', sans-serif;
-    font-size: 9px;
+    font-size: 11px;
     color: #077D68;
     text-transform: uppercase;
-    height: 25px;
+    height: 30px;
 }
 
 .top-title-white {
@@ -194,11 +204,6 @@
     line-height: 155%;
     color: #1F1F1F;
     margin: 0 0 70px auto;
-}
-
-.collection-h2 {
-    text-align: right;
-    max-width: 612px;
 }
 
 .social-sites {
@@ -250,7 +255,7 @@
 }
 
 .man-top-title {
-    width: 146px;
+    width: 174px;
     margin-bottom: 100px;
 }
 
@@ -283,6 +288,7 @@
 .man-item-image {
     max-width: 415px;
     margin-bottom: 14px;
+    cursor: pointer;
 }
 
 .man-item-image img {
@@ -404,14 +410,14 @@
 
 .man-item-big-right {
     position: absolute;
-    top: -50px;
-    right: -16px;
+    top: 1px;
+    right: 2px;
     z-index: 0;
 }
 
 .man-item-big .man-item-image {
     max-width: unset;
-    width: 649px;
+    width: 522px;
 }
 
 .man-item-big.man-item-big-pink .man-item-article {
