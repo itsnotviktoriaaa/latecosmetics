@@ -1,5 +1,6 @@
 .banner-main {
     background-image: url("../images/examplee.png");
+    background-size: cover;
 }
 
 .header-sets {

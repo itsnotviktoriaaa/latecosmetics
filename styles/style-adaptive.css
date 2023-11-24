@@ -228,10 +228,6 @@
 
 @media screen and (max-width: 882px) {
 
-    .banner-main {
-        background-size: cover;
-    }
-
     .main {
         padding-top: 185px;
     }
