@@ -66,11 +66,7 @@
     font-size: 16px;
     line-height: 16px;
     color: #FFFFFF;
-    max-width: 243px;
-}
-
-.header-set-title-middle {
-    display: none;
+    max-width: 378px;
 }
 
 .header-menu {
@@ -435,7 +431,7 @@
 .switch-to-online-shop-btn {
     width: 326px;
     height: 50px;
-    background: #077D68;
+    background: #16263B;
     border-radius: 35px 3px 35px 35px;
     border: 0;
     font-family: 'ManropeBold', sans-serif;
@@ -447,11 +443,11 @@
 }
 
 .switch-to-online-shop-btn:hover {
-    background: #056655;
+    background: #121f2f;
 }
 
 .switch-to-main-page-btn {
-    background: #A57558;
+    background: #cc9883;
     border-radius: 35px 35px 35px 3px;
     width: 271px;
     height: 50px;
@@ -463,7 +459,7 @@
 }
 
 .switch-to-main-page-btn:hover {
-    background: #866147;
+    background: #c08f7c;
 }
 
 .tea-item-big-middle {

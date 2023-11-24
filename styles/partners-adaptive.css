@@ -6,12 +6,24 @@
 
 }
 
+@media screen and (max-width: 1365px) {
+    .header-set-title {
+        font-size: 14px;
+    }
+}
+
 @media screen and (max-width: 1231px) {
 
     .container {
         padding: 0 20px;
     }
 
+}
+
+@media screen and (max-width: 1223px) {
+    .header-set-title {
+        font-size: 13px;
+    }
 }
 
 /**/
@@ -38,14 +50,6 @@
     .header-set {
         padding: 0 20px;
         box-sizing: border-box;
-    }
-
-    .header-set-title {
-        display: none;
-    }
-
-    .header-set-title-middle {
-        display: block;
     }
 
 }
@@ -165,7 +169,7 @@
         width: 31px;
     }
 
-    .header-set-title-middle {
+    .header-set-title {
         text-align: center;
     }
 
@@ -338,10 +342,16 @@
         border-bottom: 0;
     }
 
+    .header-set {
+        height: 70px;
+    }
+
     .header-set-title {
         font-size: 9px;
+        line-height: 11px;
     }
 }
+
 
 @media screen and (max-width: 403px) {
 
