@@ -6,6 +6,12 @@
 
 }
 
+@media screen and (min-width: 1921px) {
+    .footer-items {
+        justify-content: space-between;
+    }
+}
+
 @media screen and (max-width: 1601px) {
     .image-block {
         position: relative;

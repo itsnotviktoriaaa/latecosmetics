@@ -185,3 +185,9 @@ h1, h2, h3, h4 {
     animation-name: slideInDown !important;
     -webkit-animation-name: slideInDown !important;
 }
+
+@media screen and (min-width: 1921px) {
+    .container {
+        max-width: 1800px; /* Новая максимальная ширина контейнера */
+    }
+}

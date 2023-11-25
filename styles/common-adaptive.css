@@ -14,6 +14,44 @@
 
 }
 
+@media screen and (min-width: 1921px) {
+    .banner-coffee {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #9f8263;
+    }
+
+    .banner-tea {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #35745e;
+        background-image: url("../images/La-and-Te-beaute_banner_tea-without-back.png");
+    }
+
+    .banner-man {
+        background:
+                url('../images/La-and-Te-beaute_banner_man-without-back.png') center no-repeat,
+                url('../images/La-and-Te-beaute_banner_man-without-product.png') center/cover no-repeat;
+    }
+
+    .coffees-item, .tea-item, .man-item {
+        width: 45%;
+        max-width: 45%;
+    }
+
+    .coffees-item-big, .tea-item-big, .man-item-big {
+        width: 100%;
+    }
+
+    .coffees-item-image, .tea-item-image, .man-item-image {
+        margin: 0 auto 14px auto;
+    }
+
+    .footer-items {
+        justify-content: space-between;
+    }
+}
+
 @media screen and (max-width: 1600px) {
 
     .banner-man {
